@@ -35,6 +35,7 @@ import {
   Maximize2,
 } from "lucide-react";
 import "./style.css";
+import { ArticleFigure } from "./ArticleFigure.jsx";
 
 const api = async (path, body) => {
   const r = await fetch("/api" + path, {
@@ -654,32 +655,21 @@ function App() {
                     <span>约 {article.minutes} 分钟</span>
                   </div>
                 </div>
-                {article.image && !article.imageOnly && (
-                  <figure className="article-figure">
-                    <img src={article.image} alt="本篇文章原版插图" />
-                    <figcaption>原版文章配图 / 本地期刊</figcaption>
-                  </figure>
-                )}
                 {article.imageOnly && (
-                  <div className="image-article">
-                    <p>
-                      本页为原刊数据图表，可查看原图；图中文字尚未转为可选文本。
-                    </p>
-                    {article.images?.map((src, i) => (
-                      <figure key={src}>
-                        <a href={src} target="_blank" rel="noreferrer">
-                          <img
-                            src={src}
-                            alt={"本期经济数据与市场图表 " + (i + 1)}
-                          />
-                        </a>
-                        <figcaption>图表 {i + 1} / 点击查看原图</figcaption>
-                      </figure>
-                    ))}
-                  </div>
+                  <p className="image-article-notice">本页为原刊数据图表，点击图片可放大；图中文字尚未转为可选文本。</p>
                 )}
                 <div className="article-body">
-                  {article.paragraphs.map((p, i) => {
+                  {(article.blocks || [
+                    ...(article.images || []).map((src) => ({ type: "image", src })),
+                    ...article.paragraphs.map((p) => ({ type: "paragraph", paragraphId: p.id })),
+                  ]).map((block, blockIndex) => {
+                    if (block.type === "image") return (
+                      <ArticleFigure key={`image-${blockIndex}`} src={block.src}
+                        alt={block.alt || `${article.title} · 原刊配图`} />
+                    );
+                    const p = article.paragraphs.find((p) => p.id === block.paragraphId);
+                    if (!p) return null;
+                    const i = article.paragraphs.indexOf(p);
                     const notes = state.notes.filter(
                       (n) =>
                         n.articleId === article.id &&

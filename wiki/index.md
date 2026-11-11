@@ -40,6 +40,7 @@ updated: 2026-11-09
 
 ## 综合
 
+- [核查｜原刊图表呈现](synthesis/economist-chart-display-audit.md) — 两版已按原文位置完整展示 358 个原刊图片引用，保持比例并支持放大。（updated: 2026-11-11）
 - [PRD｜Economist Reader：兴趣驱动的上下文英语学习](synthesis/economist-context-learning-prd.md) — 兴趣精读、拼写与漏读推荐；三份素材映射，笔记采用两个库、三层职责与人工签核，含分期和验收。（updated: 2026-11-09）
 - [综合｜阅读理解 vs 记忆巩固](synthesis/reading-vs-memorization.md) — 两个工具样本的对比表、三个可迁移结论、对“经济学人精读工具”的模块启示。（updated: 2026-11-09）
 - [综合｜Karpathy 三层 vs 作者“签核版”](synthesis/karpathy-vs-one-hand-signoff.md) — 两条正交的切分轴、作者的强项与软肋、本 wiki 可落地的三个轻量签核机制。（updated: 2026-11-09）

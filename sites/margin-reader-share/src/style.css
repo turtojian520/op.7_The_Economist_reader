@@ -617,8 +617,9 @@ p {
 }
 .article-figure img {
   width: 100%;
-  max-height: 350px;
-  object-fit: cover;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
 }
 .article-figure figcaption {
   font-size: 11px;
@@ -1741,7 +1742,7 @@ p {
     margin: 22px 0 30px;
   }
   .article-figure img {
-    max-height: 300px;
+    max-height: none;
   }
   .companion {
     position: relative;
@@ -2121,3 +2122,20 @@ h3 {
 .key-vocabulary .key-word:hover { opacity: .75; }
 .key-word-meta { display: flex; flex-wrap: wrap; gap: 9px; color: var(--muted); font-size: 12px; margin-top: 8px; }
 .key-vocabulary li p { margin: 6px 0 0; color: var(--ink); font-size: 13px; line-height: 1.8; }
+
+/* Original figures remain in the article flow; never crop chart labels. */
+.article-body .article-figure { margin: 28px 0 35px; }
+.figure-trigger { display: block; width: 100%; padding: 0; border: 0; background: transparent; cursor: zoom-in; color: var(--muted); }
+.figure-trigger img { display: block; width: 100%; height: auto; max-height: none; object-fit: contain; }
+.figure-trigger span { display: block; padding-top: 8px; font-size: 12px; }
+.figure-dialog { width: min(1200px, 96vw); max-width: 96vw; max-height: 94dvh; padding: 0; border: 1px solid var(--rule); background: var(--paper, #faf8f3); color: var(--ink, #292722); }
+.figure-dialog::backdrop { background: rgb(0 0 0 / 72%); }
+.figure-viewer { display: flex; flex-direction: column; max-height: 90dvh; }
+.figure-toolbar { display: flex; align-items: center; gap: 12px; padding: 12px; border-bottom: 1px solid var(--rule); flex-wrap: wrap; }
+.figure-toolbar > span { flex: 1 1 200px; font-size: 13px; }
+.figure-toolbar button, .figure-toolbar a { padding: 8px 10px; font-size: 13px; color: inherit; }
+.figure-viewport { overflow: auto; min-height: 0; padding: 12px; overscroll-behavior: contain; }
+.figure-viewport img { display: block; width: 100%; height: auto; max-height: 72dvh; object-fit: contain; }
+.figure-viewport img.is-zoomed { width: 200%; max-width: none; max-height: none; }
+body:has(.figure-dialog[open]) { overflow: hidden; }
+.image-article-notice { color: var(--muted); font-size: 13px; }
