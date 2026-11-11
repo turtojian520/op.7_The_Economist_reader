@@ -1,0 +1,191 @@
+render tier: 25 screenshots in /Users/qinhao/Documents/python/VS_code_python/projects/op.7_The_Economist_reader/.hallmark/shots (1280x800, 1440x900, 1920x1080 folds; 1440 and 375 full pages)
+http://127.0.0.1:8097
+  WAIVED 39b :1 [1440px] control height outside 32 to 52px: button.issue-item 141px, button.issue-item 141px, button.issue-item 141px
+http://127.0.0.1:8097/#reader
+  WAIVED 39b :1 [1440px] control height outside 32 to 52px: button 113px, button 112px
+prototype/src/style.css
+  NOTE 24b :120 gap: 45px (off the 4px scale) on .app-header | fix: Use the 4px spacing scale
+  NOTE 24b :125 gap: 11px (off the 4px scale) on .wordmark
+  NOTE 24b :152 gap: 30px (off the 4px scale) on .app-header nav
+  NOTE 24b :160 gap: 7px (off the 4px scale) on .app-header nav a
+  NOTE 24b :180 padding: 1px 6px (off the 4px scale) on .nav-count
+  NOTE 24b :203 padding: 0 46px (off the 4px scale) on .page-wrap
+  NOTE 24b :210 padding: 49px 0 34px (off the 4px scale) on .page-heading
+  NOTE 24b :213 margin-bottom: 9px (off the 4px scale) on .page-heading h1
+  NOTE 24b :234 gap: 29px (off the 4px scale) on .library-grid
+  NOTE 24b :237 padding: 30px 0 (off the 4px scale) on .library-grid
+  NOTE 24b :242 gap: 26px (off the 4px scale) on .lead-story
+  NOTE 24b :249 margin-bottom: 14px (off the 4px scale) on .section-label
+  NOTE 24b :266 margin-bottom: 18px (off the 4px scale) on .story-copy > p
+  NOTE 24b :270 gap: 18px (off the 4px scale) on .story-meta
+  NOTE 24b :278 margin-top: 25px (off the 4px scale) on .story-copy .primary
+  NOTE 24b :283 padding: 9px 17px (off the 4px scale) on .primary, .quiet
+  NOTE 24b :288 gap: 10px (off the 4px scale) on .primary, .quiet
+  NOTE 24b :314 padding: 3px 0 (off the 4px scale) on .text-button
+  NOTE 24b :318 margin-bottom: 10px (off the 4px scale) on .full
+  NOTE 24b :336 padding: 7px 0 0 28px (off the 4px scale) on .reading-invitation
+  NOTE 24b :353 padding-top: 15px (off the 4px scale) on .invitation-bottom
+  NOTE 24b :358 gap: 6px (off the 4px scale) on .invitation-bottom
+  NOTE 24b :377 margin-bottom: 22px (off the 4px scale) on .section-heading
+  NOTE 24b :392 padding: 35px 0 30px (off the 4px scale) on .issues-section
+  NOTE 24b :397 gap: 30px (off the 4px scale) on .issue-shelf
+  NOTE 24b :424 gap: 9px (off the 4px scale) on .issue-info
+  NOTE 24b :451 padding-bottom: 13px (off the 4px scale) on .filter-row
+  NOTE 24b :452 gap: 18px (off the 4px scale) on .filter-row
+  NOTE 24b :456 gap: 23px (off the 4px scale) on .filter-tabs
+  NOTE 24b :514 margin: 5px 0 (off the 4px scale) on .row-main h3
+  NOTE 24b :535 padding: 12px 0 34px (off the 4px scale) on .coverage-note
+  NOTE 24b :539 margin: 25px auto 0 (off the 4px scale) on .app-footer
+  NOTE 24b :553 margin: 0 11px (off the 4px scale) on .footer-separator
+  NOTE 24b :563 padding: 0 45px (off the 4px scale) on .reading-toolbar
+  NOTE 24b :570 margin: 0 10px (off the 4px scale) on .toolbar-divider
+  NOTE 24b :576 gap: 18px (off the 4px scale) on .reader-settings
+  NOTE 24b :588 padding: 38px 30px 55px (off the 4px scale) on .reader-layout
+  NOTE 24b :601 margin: 0 0 22px (off the 4px scale) on .article-masthead h1
+  NOTE 24b :608 margin-bottom: 22px (off the 4px scale) on .article-deck
+  NOTE 24b :611 padding-bottom: 25px (off the 4px scale) on .article-masthead .story-meta
+  NOTE 24b :616 margin: 28px 0 35px (off the 4px scale) on .article-figure
+  NOTE 24b :626 padding-top: 7px (off the 4px scale) on .article-figure figcaption
+  NOTE 24b :637 margin: 0 0 25px (off the 4px scale) on .article-body > p
+  NOTE 24b :662 gap: 10px (off the 4px scale) on .inline-note
+  NOTE 24b :665 padding: 14px 18px (off the 4px scale) on .inline-note
+  NOTE 24b :666 margin: -7px 0 25px (off the 4px scale) on .inline-note
+  NOTE 24b :674 margin: 5px 0 0 (off the 4px scale) on .inline-note p
+  NOTE 24b :677 margin: 45px 0 20px (off the 4px scale) on .article-end
+  NOTE 24b :678 padding: 25px 0 (off the 4px scale) on .article-end
+  NOTE 24b :689 gap: 7px (off the 4px scale) on .source-link
+  NOTE 24b :702 padding: 17px 21px (off the 4px scale) on .companion-top
+  NOTE 24b :713 gap: 25px (off the 4px scale) on .companion-tabs
+  NOTE 24b :714 padding: 0 21px (off the 4px scale) on .companion-tabs
+  NOTE 24b :719 padding: 11px 0 (off the 4px scale) on .companion-tabs button
+  NOTE 24b :738 padding: 24px 23px (off the 4px scale) on .guide-panel, .definition-panel, .note-composer
+  NOTE 24b :745 margin: 10px 0 8px (off the 4px scale) on .margin-symbol
+  NOTE 24b :750 margin-bottom: 15px (off the 4px scale) on .guide-panel h2
+  NOTE 24b :760 margin-bottom: 9px (off the 4px scale) on .guide-panel h3
+  NOTE 24b :768 margin-top: 25px (off the 4px scale) on .related-reading
+  NOTE 24b :769 padding-top: 22px (off the 4px scale) on .related-reading
+  NOTE 24b :772 padding: 13px 0 (off the 4px scale) on .related-reading button
+  NOTE 24b :789 margin: 5px 0 8px (off the 4px scale) on .related-reading strong
+  NOTE 24b :797 margin: 15px 0 10px (off the 4px scale) on .definition-panel h2
+  NOTE 24b :813 padding: 5px (off the 4px scale) on .phonetic button
+  NOTE 24b :816 margin: 18px 0 (off the 4px scale) on .word-meaning
+  NOTE 24b :834 margin: 15px 0 (off the 4px scale) on .definition-panel blockquote, .note-composer blockquote
+  NOTE 24b :855 margin: 21px 0 10px (off the 4px scale) on .note-composer label
+  NOTE 24b :861 padding: 13px (off the 4px scale) on .note-composer textarea, .review-entry textarea
+  NOTE 24b :872 margin-top: 10px (off the 4px scale) on .tag-label select
+  NOTE 24b :874 padding: 10px (off the 4px scale) on .tag-label select
+  NOTE 24b :889 padding: 5px 8px (off the 4px scale) on .selection-bar
+  NOTE 24b :897 padding: 0 13px (off the 4px scale) on .selection-bar > span
+  NOTE 24b :908 gap: 7px (off the 4px scale) on .selection-bar button
+  NOTE 24b :910 padding: 11px 14px (off the 4px scale) on .selection-bar button
+  NOTE 24b :921 gap: 30px (off the 4px scale) on .notes-tabs
+  NOTE 24b :925 gap: 10px (off the 4px scale) on .notes-tabs button
+  NOTE 24b :928 padding: 18px 0 (off the 4px scale) on .notes-tabs button
+  NOTE 24b :947 padding: 2px 6px (off the 4px scale) on .notes-tabs span
+  NOTE 24b :953 gap: 10px (off the 4px scale) on .notes-intro
+  NOTE 24b :972 gap: 13px (off the 4px scale) on .note-side
+  NOTE 24b :999 gap: 10px (off the 4px scale) on .note-source
+  NOTE 24b :1008 gap: 25px (off the 4px scale) on .note-actions
+  NOTE 24b :1016 margin-top: 35px (off the 4px scale) on .notes-footnote
+  NOTE 24b :1019 margin: 15px 0 35px (off the 4px scale) on .review-entry
+  NOTE 24b :1030 padding: 21px 25px (off the 4px scale) on .review-header
+  NOTE 24b :1043 padding: 30px (off the 4px scale) on .review-columns
+  NOTE 24b :1048 padding-left: 35px (off the 4px scale) on .review-columns > div + div
+  NOTE 24b :1072 padding: 18px 25px (off the 4px scale) on .review-actions
+  NOTE 24b :1076 gap: 25px (off the 4px scale) on .review-actions
+  NOTE 24b :1084 padding: 25px 0 (off the 4px scale) on .accepted-entry
+  NOTE 24b :1089 gap: 7px (off the 4px scale) on .approved-label
+  NOTE 24b :1097 margin: 17px 0 (off the 4px scale) on .accepted-entry h3
+  NOTE 24b :1104 margin-left: 25px (off the 4px scale) on .accepted-entry button + button
+  NOTE 24b :1116 margin-bottom: 70px (off the 4px scale) on .practice-layout
+  NOTE 24b :1131 padding-left: 17px (off the 4px scale) on .practice-context blockquote
+  NOTE 24b :1134 margin-top: 35px (off the 4px scale) on .practice-modes
+  NOTE 24b :1140 margin-bottom: 14px (off the 4px scale) on .practice-modes > span
+  NOTE 24b :1164 padding: 22px 30px (off the 4px scale) on .practice-sheet-top
+  NOTE 24b :1182 padding: 36px 36px 25px (off the 4px scale) on .practice-question
+  NOTE 24b :1186 margin-bottom: 25px (off the 4px scale) on .cloze-sentence
+  NOTE 24b :1195 margin-bottom: 30px (off the 4px scale) on .meaning-prompt
+  NOTE 24b :1201 margin-bottom: 11px (off the 4px scale) on .practice-question form label
+  NOTE 24b :1216 padding: 10px 0 (off the 4px scale) on .spelling-field input
+  NOTE 24b :1247 margin-top: 15px (off the 4px scale) on .practice-buttons
+  NOTE 24b :1250 padding: 17px 30px (off the 4px scale) on .practice-sheet-footer
+  NOTE 24b :1257 padding: 45px 30px 70px (off the 4px scale) on .practice-finish
+  NOTE 24b :1263 margin-bottom: 23px (off the 4px scale) on .practice-finish > svg
+  NOTE 24b :1275 gap: 70px (off the 4px scale) on .finish-stats
+  NOTE 24b :1276 padding: 25px 0 (off the 4px scale) on .finish-stats
+  NOTE 24b :1281 gap: 9px (off the 4px scale) on .finish-stats > div
+  NOTE 24b :1291 margin-right: 25px (off the 4px scale) on .practice-finish > .primary
+  NOTE 24b :1295 padding: 70px 30px 90px (off the 4px scale) on .empty
+  NOTE 24b :1309 margin-bottom: 25px (off the 4px scale) on .empty p
+  NOTE 24b :1313 padding: 7px 0 (off the 4px scale) on .empty > button:not(.primary):not(.quiet)
+  NOTE 24b :1316 padding: 15px 0 25px (off the 4px scale) on .panel-empty
+  NOTE 24b :1332 gap: 15px (off the 4px scale) on .boot
+  NOTE 24b :1351 padding: 14px 20px (off the 4px scale) on .toast
+  NOTE 24b :1356 gap: 9px (off the 4px scale) on .toast
+  NOTE 24b :1374 gap: 10px (off the 4px scale) on .loading
+  NOTE 24b :1403 padding-inline: 65px (off the 4px scale) on .app-header
+  NOTE 24b :1406 gap: 70px (off the 4px scale) on .reader-layout
+  NOTE 24b :1418 gap: 22px (off the 4px scale) on .app-header nav
+  NOTE 24b :1424 padding: 0 30px (off the 4px scale) on .page-wrap
+  NOTE 24b :1453 gap: 35px (off the 4px scale) on .reader-layout
+  NOTE 24b :1461 margin: 20px 30px 0 (off the 4px scale) on .app-footer
+  NOTE 24b :1464 padding: 0 30px (off the 4px scale) on .reading-toolbar
+  NOTE 24b :1467 gap: 30px (off the 4px scale) on .practice-layout
+  NOTE 24b :1475 padding: 14px 22px 0 (off the 4px scale) on .app-header
+  NOTE 24b :1494 gap: 5px (off the 4px scale) on .app-header nav a
+  NOTE 24b :1500 padding: 0 22px (off the 4px scale) on .page-wrap
+  NOTE 24b :1503 padding: 31px 0 25px (off the 4px scale) on .page-heading
+  NOTE 24b :1521 gap: 18px (off the 4px scale) on .lead-story
+  NOTE 24b :1534 margin-top: 18px (off the 4px scale) on .story-copy .primary
+  NOTE 24b :1544 margin-top: 25px (off the 4px scale) on .reading-invitation
+  NOTE 24b :1548 gap: 18px (off the 4px scale) on .reading-invitation
+  NOTE 24b :1592 padding: 12px 9px (off the 4px scale) on .issue-item
+  NOTE 24b :1602 margin-top: 14px (off the 4px scale) on .issue-info
+  NOTE 24b :1603 gap: 6px (off the 4px scale) on .issue-info
+  NOTE 24b :1625 gap: 10px (off the 4px scale) on .filter-row
+  NOTE 24b :1628 gap: 23px (off the 4px scale) on .filter-tabs
+  NOTE 24b :1654 gap: 7px (off the 4px scale) on .row-meta
+  NOTE 24b :1660 padding-top: 10px (off the 4px scale) on .article-catalog
+  NOTE 24b :1667 margin: 15px 22px 0 (off the 4px scale) on .app-footer
+  NOTE 24b :1670 padding: 18px 0 (off the 4px scale) on .app-footer
+  NOTE 24b :1677 padding: 10px 22px (off the 4px scale) on .reading-toolbar
+  NOTE 24b :1679 gap: 5px (off the 4px scale) on .reading-toolbar
+  NOTE 24b :1687 gap: 18px (off the 4px scale) on .reader-settings
+  NOTE 24b :1692 padding: 27px 27px 30px (off the 4px scale) on .reader-layout
+  NOTE 24b :1693 gap: 35px (off the 4px scale) on .reader-layout
+  NOTE 24b :1710 margin: 22px 0 30px (off the 4px scale) on .article-figure
+  NOTE 24b :1752 padding: 12px 14px (off the 4px scale) on .selection-bar button
+  NOTE 24b :1762 gap: 5px (off the 4px scale) on .page-heading > .quiet
+  NOTE 24b :1769 gap: 21px (off the 4px scale) on .notes-tabs
+  NOTE 24b :1773 gap: 7px (off the 4px scale) on .notes-tabs button
+  NOTE 24b :1780 padding: 22px 0 (off the 4px scale) on .notebook-entry
+  NOTE 24b :1785 gap: 15px (off the 4px scale) on .note-side
+  NOTE 24b :1795 padding: 17px (off the 4px scale) on .review-header
+  NOTE 24b :1800 margin-bottom: 10px (off the 4px scale) on .review-header h2
+  NOTE 24b :1805 gap: 25px (off the 4px scale) on .review-columns
+  NOTE 24b :1811 padding-top: 25px (off the 4px scale) on .review-columns > div + div
+  NOTE 24b :1827 margin-top: 3px (off the 4px scale) on .review-actions > .primary
+  NOTE 24b :1833 padding-top: 25px (off the 4px scale) on .practice-layout
+  NOTE 24b :1844 margin: 10px 0 (off the 4px scale) on .practice-context h2
+  NOTE 24b :1847 margin-top: 7px (off the 4px scale) on .practice-context > .text-button
+  NOTE 24b :1850 margin-top: 10px (off the 4px scale) on .practice-modes
+  NOTE 24b :1851 padding-top: 15px (off the 4px scale) on .practice-modes
+  NOTE 24b :1853 gap: 5px (off the 4px scale) on .practice-modes
+  NOTE 24b :1861 padding: 10px 5px (off the 4px scale) on .practice-modes button
+  NOTE 24b :1867 padding: 18px 20px (off the 4px scale) on .practice-sheet-top
+  NOTE 24b :1870 padding: 25px 20px (off the 4px scale) on .practice-question
+  NOTE 24b :1879 gap: 10px (off the 4px scale) on .practice-buttons
+  NOTE 24b :1883 padding: 9px 13px (off the 4px scale) on .practice-buttons .primary
+  NOTE 24b :1889 padding: 17px 20px (off the 4px scale) on .practice-sheet-footer
+  NOTE 24b :1898 padding: 35px 0 (off the 4px scale) on .practice-finish
+  NOTE 24b :1904 gap: 35px (off the 4px scale) on .finish-stats
+  NOTE 24b :1907 padding: 65px 10px (off the 4px scale) on .empty
+  NOTE 24b :1917 padding: 0 17px (off the 4px scale) on .page-wrap
+  NOTE 24b :1937 gap: 21px (off the 4px scale) on .filter-tabs
+  NOTE 24b :1940 padding-inline: 17px (off the 4px scale) on .app-header
+  NOTE 24b :1978 margin-bottom: 7px (off the 4px scale) on .row-main h3
+  NOTE 24b :1982 margin-bottom: 5px (off the 4px scale) on .row-main > span
+  NOTE 24b :2000 margin: 30px 0 (off the 4px scale) on .image-article figure
+  NOTE 24b :2009 margin-top: 10px (off the 4px scale) on .image-article figcaption
+  NOTE 24b :2024 padding: 14px 0 (off the 4px scale) on .notes-tabs button
+sloplint: 0 FAIL, 0 WARN, 2 WAIVED, 184 NOTE across 3 file(s) and 5 URL(s).

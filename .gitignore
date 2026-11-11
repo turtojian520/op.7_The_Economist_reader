@@ -1,0 +1,27 @@
+# Dependencies and generated build output
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local application data, caches and tooling
+/prototype/server/runtime/
+.cache/
+.hallmark/
+.wrangler/
+.sites.local/
+*.log
+*.pid
+*.sock
+.DS_Store
+
+# Credentials stay outside Git
+.env
+.env.*
+!.env.example
+.dev.vars*
+*.pem
+*.key
+*.p12

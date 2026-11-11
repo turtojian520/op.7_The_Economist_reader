@@ -1,0 +1,228 @@
+{
+  "id": "2026-11-07-douyin-typewords",
+  "type": "short_video",
+  "platform": "抖音",
+  "author": "猫吃小鱼",
+  "author_stats": {
+    "nickname": "猫吃小鱼",
+    "douyin_id": "53154217266",
+    "ip_location": "四川",
+    "following": 78,
+    "followers": 265,
+    "total_favorited": 2397,
+    "works": 18,
+    "profile_url": "https://www.douyin.com/user/MS4wLjABAAAAeMr4PIlspcehCSK0y8Gmv57kYpV93LsYxyzh0WvcaIeaT8jbECdQsDdhE2FOTI1E",
+    "source": "作者主页（登录态，2026-11-09 19:24 采集）"
+  },
+  "title": "【012期】别再死记硬背了！打字背单词效率直接翻倍，开源免费 #百度搭子 #办公就用dumate #背单词 #四级 - 抖音",
+  "caption": "【012期】别再死记硬背了！打字背单词效率直接翻倍，开源免费 #百度搭子 #办公就用dumate #背单词 #四级",
+  "hashtags": [
+    "百度搭子",
+    "办公就用dumate",
+    "背单词",
+    "四级"
+  ],
+  "url": "https://v.douyin.com/YQi85-KuskI/",
+  "resolved_url": "https://www.douyin.com/video/7705386336974294291",
+  "video_id": "7705386336974294291",
+  "published": "2026-11-07T19:14+08:00",
+  "published_raw": "发布时间：2026-11-07 19:14",
+  "metrics_raw": "185 3 128 25（页面按钮旁数字，含义见正文说明）",
+  "likes_raw": "已经收获了2396个喜欢（页面 meta description）",
+  "duration_s": 42.7,
+  "resolution": "1024x576",
+  "captured": "2026-11-09T19:14+08:00",
+  "capture_tool": "ego-browser 2.2.0, 短链跳转至视频详情页",
+  "transcript": {
+    "status": "none",
+    "note": "视频为无声演示录屏（页面提示“因浏览器限制，当前为静音”）；正文以画面文字+口播字幕形式呈现，逐帧记录见 video-note.md"
+  },
+  "media": {
+    "video": {
+      "local": "assets/video.mp4",
+      "sha256": "aa44e8f386cfa5bc6bec5b70e9883273c04659985b665841ddb07ad18503c9c0",
+      "bytes": 2328101
+    },
+    "cover_note": "视频封面未单独提供，使用页面截图 page-screenshot.png",
+    "page_screenshot": {
+      "local": "assets/page-screenshot.png",
+      "sha256": "3e0d129fcda8fc761a976a4ccb8921288c76f6c32f19e6b3c7b18c5b22275357"
+    },
+    "contact_sheet": {
+      "local": "assets/contact-sheet.png",
+      "sha256": "1fa2ad35baf477aae5a58e78b7182c4ef609798e9432c96c370cabfb42904917"
+    },
+    "frames": [
+      {
+        "local": "assets/frames/frame-01.png",
+        "t_s": 0,
+        "sha256": "57b063b9a8eeb7f3bf9bb4b0936c1f12ab34d2bcf023e388a430cc60b1bfbdb5"
+      },
+      {
+        "local": "assets/frames/frame-02.png",
+        "t_s": 5,
+        "sha256": "5ab06b4af8a40c0b2b50f681eefa89bcadd0e6080ea2902b8aea2b79d989d632"
+      },
+      {
+        "local": "assets/frames/frame-03.png",
+        "t_s": 10,
+        "sha256": "581778939cf1e264c142c800c04037352e6e34703a07839e290bd764bfa751a2"
+      },
+      {
+        "local": "assets/frames/frame-04.png",
+        "t_s": 15,
+        "sha256": "9df3a136cb1d8fbc66ea98da0cc3c835080218c60377fefc00216aef7696ba40"
+      },
+      {
+        "local": "assets/frames/frame-05.png",
+        "t_s": 20,
+        "sha256": "103e243e3788ba79ffd8d0c2710da80b87ce5685ddd42deee61c123dfc95d35a"
+      },
+      {
+        "local": "assets/frames/frame-06.png",
+        "t_s": 25,
+        "sha256": "460899f10db1f8cff88ce62ae25be19660fbc61c4ffa354ad3287a22ad59516c"
+      },
+      {
+        "local": "assets/frames/frame-07.png",
+        "t_s": 30,
+        "sha256": "999da948baebf49d0c7628196a594bdb90f33cb15c985afd192f872bebf21734"
+      },
+      {
+        "local": "assets/frames/frame-08.png",
+        "t_s": 35,
+        "sha256": "220e43c63762c7338b5e722ff25b0039d24f9fb6b9792d6329ce5892bb97ce3b"
+      },
+      {
+        "local": "assets/frames/frame-09.png",
+        "t_s": 40,
+        "sha256": "b12473dec122720a202f5538303f901abc33b914cf671d742a7209fc230980bc"
+      }
+    ],
+    "author_page": {
+      "local": "assets/author-page.png",
+      "sha256": "6e873aa5a1ee396a850163ff0fa1e53f193fb84eecac5aedea1889578c80cd67",
+      "note": "作者主页截图（已裁剪掉账号头像/通知等个人信息）"
+    },
+    "video_page_stats": {
+      "local": "assets/video-page-stats.png",
+      "sha256": "a3ba9e52c11a5f8fbf73ddfaea5d9ee56ab15ab592a8d32a47eabed0e0c46654",
+      "note": "视频详情页底部：点赞/评论/收藏/分享与发布时间"
+    }
+  },
+  "page_text_excerpt": [
+    "开启读屏标签",
+    "读屏标签已关闭",
+    "精选",
+    "推荐",
+    "AI抖音",
+    "关注",
+    "朋友",
+    "我的",
+    "直播",
+    "放映厅",
+    "短剧",
+    "背单词神器app推荐",
+    "搜索",
+    "更多",
+    "壁纸",
+    "通知",
+    "消息",
+    "投稿",
+    "登录",
+    "下载电脑客户端",
+    "00:24 / 00:43",
+    "登录后可发布弹幕",
+    "发送",
+    "因浏览器限制，当前为静音",
+    "打开声音",
+    "倍速",
+    "智能",
+    "清屏",
+    "连播",
+    "【012期】别再死记硬背了！打字背单词效率直接翻倍，开源免费 #百度搭子 #办公就用dumate #背单词 #四级",
+    "185",
+    "3",
+    "128",
+    "25",
+    "举报",
+    "发布时间：2026-11-07 19:14",
+    "猫吃小鱼",
+    "粉丝265获赞2396",
+    "关注",
+    "推荐视频"
+  ],
+  "capture_rounds": [
+    {
+      "round": 1,
+      "mode": "logged-out",
+      "time": "2026-11-09T19:14+08:00",
+      "note": "短链跳转详情页，抓取视频 MP4、抽帧、页面文本与 RENDER_DATA；此时评论区加载不出、无登录态"
+    },
+    {
+      "round": 2,
+      "mode": "logged-in",
+      "time": "2026-11-09T19:22+08:00",
+      "note": "用户登录后重新采集：精确互动数据（DOM）、完整评论区、作者主页；截图已裁剪去除账号个人信息"
+    }
+  ],
+  "stats": {
+    "digg": 185,
+    "comment": 3,
+    "collect": 128,
+    "share": 25,
+    "source": "抖音视频详情页 DOM（登录态，2026-11-09 19:22 采集）",
+    "note": "此前 meta description 里的『已经收获了2396个喜欢』经核实是作者主页的累计获赞（2397），不是本视频点赞数"
+  },
+  "series": {
+    "name": "开源工具安利系列（001–012 期）",
+    "works_count": 18,
+    "pattern": "每期介绍一个开源/免费工具，演示用百度搭子（或豆包）获取/使用工具，标签 #百度搭子 #办公就用dumate",
+    "examples": [
+      "001期 LibreTV",
+      "002期 android-ad-cleaner",
+      "003期 LibreTV",
+      "004期 kazumi",
+      "005期 Folia",
+      "006期 LibreTV",
+      "007期 未指名",
+      "008期 LibreTV",
+      "009–010期 紫微斗数",
+      "011期 DLSS 5 Swapper",
+      "012期 Pavise ×2、TypeWords ×2、Sherlock"
+    ],
+    "related_same_topic_video": {
+      "title": "【012期】打字也能背单词？这个开源工具把我十年背单词方式改了",
+      "digg": 87,
+      "url": "https://www.douyin.com/user/MS4wLjABAAAAeMr4PIlspcehCSK0y8Gmv57kYpV93LsYxyzh0WvcaIeaT8jbECdQsDdhE2FOTI1E"
+    }
+  },
+  "comments": [
+    {
+      "user": "天涯归途",
+      "text": "workbudy也可以用吗",
+      "time": "1天前",
+      "region": "宁夏",
+      "likes": 0
+    },
+    {
+      "user": "猫吃小鱼",
+      "role": "作者",
+      "text": "我这个指令是搭子的，优先用搭子",
+      "reply_to": "天涯归途",
+      "time": "1天前",
+      "region": "四川",
+      "likes": 0
+    },
+    {
+      "user": "猫吃小鱼",
+      "role": "作者",
+      "text": "搭子你好，帮我把GitHub上H74P7FP的\"zyronon/TypeWords\"在线工具发我，我要再战四级",
+      "time": "1天前",
+      "region": "四川",
+      "likes": 0,
+      "note": "作者把自己的提示词公开在评论区"
+    }
+  ],
+  "comments_count_visible": 3
+}

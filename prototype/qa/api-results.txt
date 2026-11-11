@@ -1,0 +1,1 @@
+PASS: 225-article catalogue, provenance, lookup fallback, user-only original notes, pending isolation, stale version, acceptance diff, duplicate refusal, revocation, rejection, and recall scoring.

@@ -1,0 +1,118 @@
+{
+  "id": "2026-10-30-wechat-draco-ereader",
+  "type": "article",
+  "platform": "微信公众号",
+  "account": "Draco正在VibeCoding",
+  "author": "DracoVibeCoding",
+  "original": true,
+  "title": "我在开发全世界最好的电子书阅读器",
+  "url": "https://mp.weixin.qq.com/s/AA3UeIBUYrJWwMr-dcy2AQ",
+  "published": "2026-10-30T18:57+08:00",
+  "published_raw": "2026年10月30日 18:57 北京",
+  "captured": "2026-11-09T19:12+08:00",
+  "capture_tool": "ego-browser 2.2.0 (ego lite), 真实浏览器加载后提取 #js_content",
+  "language": "zh-CN",
+  "word_count_cn_chars": 975,
+  "text": {
+    "remote_html": "https://mp.weixin.qq.com/s/AA3UeIBUYrJWwMr-dcy2AQ",
+    "note": "正文全文见 article.md；原始 innerText 存于 raw/innerText.txt"
+  },
+  "images": [
+    {
+      "order": 1,
+      "imgIndex": 0,
+      "local": "assets/img-01.png",
+      "remote": "https://mmbiz.qpic.cn/mmbiz_png/0m9F5vC1OGgIrwaFoyYT1qbwVE80vw4XMe6NycZPHedTFicianBaEzVz4H4jUUSYbrrFAVrA8y5AoibzmBQwTKWTu6KGUx4XORVb72CwoLomPA/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "40ffffa9cdc92e8fd16ef498d873d5764f1713cef15972fe7b3a05f5d48bd0d4",
+      "bytes": 638188
+    },
+    {
+      "order": 2,
+      "imgIndex": 1,
+      "local": "assets/img-02.png",
+      "remote": "https://mmbiz.qpic.cn/mmbiz_png/0m9F5vC1OGjfRMdiaRCth11sgQIhezz2Fr5taXQul2x8aIIOOgbI7dCApWKBp2LnHdlMJjOPI6iam5CJqMGeNGgicBTOb1lBuib0KVAsZZP82yg/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "8eb6bcd71768b5cf6d8c12b407674826e1d1124ed2910f6d6e9f6309fba303d6",
+      "bytes": 703815
+    },
+    {
+      "order": 3,
+      "imgIndex": 2,
+      "local": "assets/img-03.png",
+      "remote": "https://mmbiz.qpic.cn/sz_mmbiz_png/0m9F5vC1OGiadibrh7HV7gPNX0jD8kJs9WGfUqYPa08f8FNic16wFrA3KRoK04rggSNoZAGCZkPver1sMdbC1nk8Nc7kuA2mdLTWkh15CNXo00/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "a02febeba42039a2b3a1bbc69bf1e10baae3b193876c4940f060563a790fcceb",
+      "bytes": 719067
+    },
+    {
+      "order": 4,
+      "imgIndex": 3,
+      "local": "assets/img-04.png",
+      "remote": "https://mmbiz.qpic.cn/sz_mmbiz_png/0m9F5vC1OGjriaDQapN1BRq7ic3llO57oRaHGmqpVETaCP64hqxGl7a7ia2j2cQlicyiaZ9jL2EwZWBWtYe3IvQqRxSKBkF3kZJXNCVia2tBvCb7Y/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "e9fd166ad164ca9b32e4c428d9106538f6f386a79a63e2e6b455b15baeff8a68",
+      "bytes": 507154
+    },
+    {
+      "order": 5,
+      "imgIndex": 4,
+      "local": "assets/img-05.png",
+      "remote": "https://mmbiz.qpic.cn/sz_mmbiz_png/0m9F5vC1OGia08XicMUfInEzOzVS7MP4YiaiaXfiaDK7Nt0zcwhXdTQhEJ8HfUZsb0B0GXmaUcemekiaEJyQ6oPibuwZmv8J1mkwcEBJdiav5rjoZ5A/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "87983566b879f7e3dd5e5cc51f3b374d8067786a64907348ae59b4a2ae0a5308",
+      "bytes": 583822
+    },
+    {
+      "order": 6,
+      "imgIndex": 5,
+      "local": "assets/img-06.png",
+      "remote": "https://mmbiz.qpic.cn/sz_mmbiz_png/0m9F5vC1OGjRMp08VfDfv76ZmSY5QWRYbCicd9AwcoibbsqSzAHbmOz9Y1OmaN9EwWe3Y3CzctLM06zXJeGu8h6PfsB5IkMU3hQLWHMA1icgKA/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "7dca1400f19617610fcfd31d31478dc6808a1101b219abde5073b4e08259980c",
+      "bytes": 111660
+    },
+    {
+      "order": 7,
+      "imgIndex": 6,
+      "local": "assets/img-07.png",
+      "remote": "https://mmbiz.qpic.cn/sz_mmbiz_png/0m9F5vC1OGhd900To3RNwFkvfTTyexnKtlITBiclTuhdqTNPZxTOnJtgemEc2dVIuTEWOM0qcla9pnEOxrYUCWhIVMtUChsuxv4wqgibr2EeU/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "9e7a82dab28a97f40258ea70890fb4304e78a9e0f586fee35511c9e93fa964af",
+      "bytes": 400779
+    },
+    {
+      "order": 8,
+      "imgIndex": 7,
+      "local": "assets/img-08.png",
+      "remote": "https://mmbiz.qpic.cn/mmbiz_png/0m9F5vC1OGgkmRhFRzicrnyjGcGU5SoX6wm4g8GleDb0CH3eesb79den0SUNJzwXbrpmLQ3GGBZ3KmaB9RWuprGbZ7EEzbY1Y4yAJrMWCiayI/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "cfe0d898922b00e094ea48d42fe4000d3545dc380bcf6bb79b31bb08a3a50887",
+      "bytes": 615328
+    },
+    {
+      "order": 9,
+      "imgIndex": 8,
+      "local": "assets/img-09.png",
+      "remote": "https://mmbiz.qpic.cn/mmbiz_png/0m9F5vC1OGg6hwR2RZJbE58OBlezSiaicMW91Sy7Netbt8F2zbgMibKPkBO6yIQGfKpDbsIoM97M9h5LCXSnK6jD9cgK9MUxs8VZ6XlpS3PVSw/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "7f9bacb59945c48f8399c99b6c4de052142d43e29db933157b4864e4ce88b582",
+      "bytes": 622167
+    },
+    {
+      "order": 10,
+      "imgIndex": 9,
+      "local": "assets/img-10.png",
+      "remote": "https://mmbiz.qpic.cn/sz_mmbiz_png/0m9F5vC1OGjfek6gGFEbJTREJ3JESiaQeRugJAgiaDdLL1H40TSXoPCOVHsS8BvFTlQDmQD4VGbVNOEZ95ZGicVgzWAw0KWblZplXAqArfLlGw/640?wx_fmt=png&from=appmsg&watermark=1",
+      "alt": "图片",
+      "sha256": "1c5ced3b9f4fdd7aaddba819e12486fe22bd09a0bd9004cc0ee9c4cb7b04ea54",
+      "bytes": 72336
+    }
+  ],
+  "embedded_video": {
+    "status": "not_downloaded",
+    "vid": "wxv_4760759453568843777",
+    "duration_s": 18,
+    "note": "文中 1. 节嵌有 00:18 的翻页演示视频，本文档仅记录元数据"
+  }
+}

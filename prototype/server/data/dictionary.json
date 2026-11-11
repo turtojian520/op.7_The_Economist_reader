@@ -1,0 +1,20 @@
+{
+ "hypothesis":{"phonetic":"/haɪˈpɒθəsɪs/","meaning":"n. 假设；有待验证的解释","explanation":"在自动化实验室的语境中，指 AI 先提出、再由机器人实验检验的科学假设。复数为 hypotheses。"},
+ "autonomous":{"phonetic":"/ɔːˈtɒnəməs/","meaning":"adj. 自主运行的；自治的","explanation":"形容实验室可以在较少人工介入的情况下，自行组织和执行实验。"},
+ "devises":{"phonetic":"/dɪˈvaɪzɪz/","meaning":"v. 设计；想出（devise 的第三人称单数）","explanation":"这里表示模型提出一个实验假设，不仅仅是执行现成指令。"},
+ "discoveries":{"phonetic":"/dɪˈskʌvəriz/","meaning":"n. 发现（discovery 的复数）","explanation":"这里指科学研究中新得到的发现。注意结尾 y 变为 ies。"},
+ "laboratory":{"phonetic":"/ləˈbɒrətri/","meaning":"n. 实验室","explanation":"本篇讲的是使用 AI 和机器人的科研实验室，常简称 lab。"},
+ "scientific":{"phonetic":"/ˌsaɪənˈtɪfɪk/","meaning":"adj. 科学的；科研的","explanation":"与 discoveries、research 等词搭配，表示科学研究领域的活动。"},
+ "presumably":{"phonetic":"/prɪˈzjuːməbli/","meaning":"adv. 大概；想必","explanation":"作者用这个词表达推测，语气并不等于已经证实的事实。"},
+ "arena":{"phonetic":"/əˈriːnə/","meaning":"n. 竞技场；竞争领域","explanation":"在科技竞争的上下文中，用作比喻，表示两国展开竞争的领域。"},
+ "manufacturing":{"phonetic":"/ˌmænjuˈfæktʃərɪŋ/","meaning":"n. 制造业；生产制造","explanation":"本篇讨论自动化科研对中国制造业的推动作用。"},
+ "breakthroughs":{"phonetic":"/ˈbreɪkθruːz/","meaning":"n. 突破性进展","explanation":"scientific breakthroughs 指科研领域的重要突破，不是一般性的改进。"},
+ "dependence":{"phonetic":"/dɪˈpendəns/","meaning":"n. 依赖；依存","explanation":"dependence on 表示对某事物的依赖，此处讨论技术依赖。"},
+ "drudgery":{"phonetic":"/ˈdrʌdʒəri/","meaning":"n. 单调繁重的苦差事","explanation":"这里指实验数据分析和不断调整实验等重复劳动。"},
+ "intractable":{"phonetic":"/ɪnˈtræktəbəl/","meaning":"adj. 难以处理或解决的","explanation":"形容长期以来难以攻克的科学问题。"},
+ "speculative":{"phonetic":"/ˈspekjələtɪv/","meaning":"adj. 推测性的；前景不确定的","explanation":"形容研究方向的结果尚不确定，不能简单翻成金融语境里的投机。"},
+ "consistency":{"phonetic":"/kənˈsɪstənsi/","meaning":"n. 一致性；稳定性","explanation":"文中指机器人产出的实验结果更稳定、更一致。"},
+ "inventions":{"phonetic":"/ɪnˈvenʃənz/","meaning":"n. 发明（复数）","explanation":"与 discoveries 区分：inventions 强调创造出来的新技术或新物品。"},
+ "competing":{"phonetic":"/kəmˈpiːtɪŋ/","meaning":"v. 竞争；争取","explanation":"be competing to do 表示正在争相做某事。"},
+ "productive":{"phonetic":"/prəˈdʌktɪv/","meaning":"adj. 富有成效的；生产效率高的","explanation":"这里描述实验室能以较少资源产生更多有效研究结果。"}
+}

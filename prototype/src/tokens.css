@@ -1,0 +1,25 @@
+:root {
+  --paper: #f5f4ef;
+  --surface: #fcfbf8;
+  --panel: #eeeee6;
+  --ink: #252e29;
+  --muted: #686c63;
+  --rule: #d8d9cf;
+  --accent: #2f4d3e;
+  --accent-hover: #213a2d;
+  --accent-soft: #e1e8dc;
+  --highlight: #eee1a2;
+  --error: #a44333;
+  --error-soft: #f5e5df;
+  --transparent: transparent;
+  --white: #fffefa;
+  --shadow: 0 8px 28px #252e2914;
+  --selection: #cfdfcb;
+  --font-body:
+    "Helvetica Neue", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+  --font-display: Georgia, "Songti SC", "Noto Serif CJK SC", serif;
+  --radius: 5px;
+  --dur-micro: 120ms;
+  --dur-short: 180ms;
+  --ease-out: cubic-bezier(0.2, 0.7, 0.3, 1);
+}

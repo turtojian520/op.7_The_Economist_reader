@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-09-wechat-ai-knowledge-base",
+  "type": "article",
+  "platform": "微信公众号（用户粘贴正文，未提供链接）",
+  "author": "未署名",
+  "published": "未知",
+  "captured": "2026-11-09T19:42+08:00",
+  "capture_tool": "用户直接粘贴文本（未经浏览器抓取）",
+  "language": "zh-CN",
+  "title": "别搞 AI 个人知识库了，真的没用",
+  "url": null,
+  "source_note": "无法确认原文链接、公众号名称与发布时间；如需引用请以本文件与 raw 原文为准，并标注『用户提供』",
+  "transformation": {
+    "type": "去口语化改写",
+    "applied": [
+      "删除口语语气词、省略号、重复表述与停顿（如“你想想”“。。。”“我骂的是”→书面表达）",
+      "合并重复段落（原文对“AI 可读不可写”规则重复了两次）",
+      "补充分节标题，重组段落顺序（仅在原文逻辑内调整）",
+      "将三层结构整理为表格与编号列表",
+      "统一术语：AI 知识库、raw/wiki/schema 层、一手/加工/索引层"
+    ],
+    "not_changed": [
+      "核心观点与主张",
+      "引用的数字（95%、100 篇、40 万字、百亿）",
+      "第一人称视角与结论"
+    ],
+    "raw_file": "raw/original-pasted.txt"
+  },
+  "files": {
+    "raw": {
+      "local": "raw/original-pasted.txt",
+      "sha256": "a38f6f626049f2202834d7f659acb919244abd187744e6ba6f78c9edec0e7fe4",
+      "bytes": 5061
+    },
+    "cleaned": {
+      "local": "article.md",
+      "sha256": "f8d3a461bb9cbf79d9e79cacccef976ee2428ba0b57f6a384c4aa7c5dcba2b81"
+    }
+  },
+  "claims_to_verify": [
+    {
+      "claim": "Karpathy 的 LLM Wiki 长到 100 篇、40 万字，一个字没亲手写",
+      "status": "部分待核对",
+      "note": "Karpathy 2026-04 的 gist 原文提到『约 100 个来源、数百个页面』（见 https://ai-memory.atomgit.com/research-karpathy-llm-wiki.html）；『40 万字』与『100 篇』的换算未找到一手出处"
+    },
+    {
+      "claim": "95% 的人把知识库建成数字废品收购站",
+      "status": "作者经验性断言，无数据来源"
+    },
+    {
+      "claim": "收藏/整理/标签/以备调用是被几十亿美元证伪的方法论",
+      "status": "作者经验性断言，无数据来源"
+    }
+  ],
+  "images": [],
+  "related": {
+    "llm_wiki_pattern": "https://github.com/nashsu/llm_wiki",
+    "karpathy_gist_summary": "https://ai-memory.atomgit.com/research-karpathy-llm-wiki.html"
+  }
+}

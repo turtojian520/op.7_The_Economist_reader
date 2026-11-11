@@ -1,0 +1,13 @@
+{
+  "project_id": "appgprj_6af1d1e7215c8191ab7d95908547a260",
+  "version_id": "appgprj_6af1d1e7215c8191ab7d95908547a260~appgver_cc7b164277dc81918cacc163579acf30",
+  "deployment_id": "appgdep_6af33dbe89e0819181089998dc690d2a",
+  "commit_sha": "1da03390d08d952cbdd1cf79364a9a5d1168fad9",
+  "url": "https://margin-economist-reader.hybrid-klvvc-7155.chatgpt.site",
+  "status": "succeeded",
+  "access": "public (existing setting preserved)",
+  "data_storage": "per-browser localStorage",
+  "verification": "12 tests passed; anonymous production word lookup; credentials-omitted translation returned 200 from DeepSeek; no login links; build and secret scan passed",
+  "ai_access": "public visitors; no ChatGPT login; owner-funded DeepSeek API",
+  "runtime": "Cloudflare Worker + static assets"
+}
