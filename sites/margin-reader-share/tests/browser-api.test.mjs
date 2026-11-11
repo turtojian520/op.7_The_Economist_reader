@@ -9,6 +9,21 @@ const article = fixtures['/content/catalog.json'].articles.find(a => a.id === fi
 const paragraph = article.paragraphs.find(p => p.text.includes('hypothesis'));
 const selection = {articleId:article.id,paragraphId:paragraph.id,text:'hypothesis'};
 
+test('article API retains inline figure positions and all four economic data images',async()=>{
+ const api=makeApi(storage());
+ const japan=await api('/article/2026-11-07-013');
+ assert.deepEqual(japan.blocks.slice(0,4).map(b=>b.type==='image'?b.src:b.paragraphId),[
+  '/media/2026-11-07/00061.jpg','p1','/media/2026-11-07/00057.jpg','p2'
+ ]);
+ for(const original of fixtures['/content/catalog.json'].articles){
+  const full=await api('/article/'+original.id);
+  assert.deepEqual(full.blocks.filter(b=>b.type==='paragraph').map(b=>b.paragraphId),full.paragraphs.map(p=>p.id));
+  assert.deepEqual(full.blocks.filter(b=>b.type==='image').map(b=>b.src),full.images);
+  for(const b of full.blocks.filter(b=>b.type==='image')) assert.ok((await readFile(new URL('../public'+b.src,import.meta.url))).length>0);
+  if(full.imageOnly) assert.equal(full.blocks.length,4);
+ }
+});
+
 test('225 articles remain readable with no workstation paths in published content',async()=>{
  const api=makeApi(storage());const catalog=await api('/catalog');assert.equal(catalog.articles.length,225);assert.ok(catalog.articles.every(a=>!a.paragraphs));
  const full=await api('/article/'+article.id);assert.ok(full.paragraphs.length);
