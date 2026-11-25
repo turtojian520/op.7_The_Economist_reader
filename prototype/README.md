@@ -19,7 +19,7 @@ npm start
 
 ## 体验流程
 
-1. 书架包含最近三期封面和 225 篇目录。点期刊筛选，按栏目或关键词找文；“继续浏览文章”展开更多条目。
+1. 点书架上的期刊封面查看当期目录，按栏目或关键词找文；“继续浏览文章”展开更多条目。
 2. 点首页“开始阅读”，默认打开本地 11 月 7 日期的 AI 实验室文章。
 3. 拖选单词或句子，底部操作条支持翻译、划重点、记笔记。“试着理解一个词”可以直接体验 `hypothesis`。
 4. 加入拼写练习。切到“词汇练习”，体验原句挖空、释义回忆、看词拼写；每题提供“查看答案 / 收起答案”。查看后不会自动填入输入框，后续作答计为借助提示；收起答案或切换同词的练习模式仍保留查看记录，下一词重新隐藏答案。错答、提示、揭示、粘贴、无提示首答正确分开记录。回忆模式的原句中目标词会被遮住。
@@ -32,17 +32,25 @@ Esc 关闭选区及阅读辅助浮层；所有主要操作支持键盘焦点。�
 
 读取 `/Users/qinhao/Documents/calibre_config/` 中已有的 `periodical.epub`，原文件只读：
 
-| 期刊日期 | 目录条目 |
+| 期刊 | 目录条目 |
 |---|---:|
-| 2026-11-07 | 76 |
-| 2026-10-24 | 75 |
-| 2026-10-03 | 74 |
+| The Economist · 2026-11-21 | 80 |
+| The Economist · 2026-11-14 | 76 |
+| The Economist · 2026-11-07 | 76 |
+| The Economist · 2026-10-24 | 75 |
+| The Economist · 2026-10-03 | 74 |
+| The Atlantic · 2026-09 | 15 |
+| The Atlantic · 2026-08 | 13 |
+| The Atlantic · 2026-06 | 13 |
+| DER SPIEGEL · 德语公开新闻合集 | 9 |
 
-三期共 225 个文章/图表条目，其中 222 个有可选正文、3 个为图片数据页。358 个原刊图片引用按 EPUB 中的位置穿插在正文段落之间，保持完整比例、不裁切；点击图片可在弹窗放大、滚动查看细节或打开原图，支持 Esc 关闭并回到原按钮。保留 2,519 个正文段落及其原有 ID，已有选词和笔记引用不变。补读候选仅来自这三期，按照栏目匹配，不宣称完整历史覆盖或已经实现个性化推荐。
+原刊图片按 EPUB 中的位置穿插在正文中。点击图片可在弹窗放大、滚动查看细节或打开原图。补读候选来自已导入期刊。
 
-重导入：`python3 scripts/import-issues.py`。输入目录在脚本中显式指定；校验与原文件 SHA-256 记录见 [import-report.json](docs/import-report.json)。导入结果保存在 `server/data/catalog.json` 和 `public/media/`，没有改动 Wiki 的 sources。
+重导入：`python3 scripts/import-issues.py`。脚本自动扫描 Calibre 配置目录中的 `economist-YYYY-MM-DD/periodical.epub`，按期刊日期倒序导入；校验与原文件 SHA-256 记录见 [import-report.json](docs/import-report.json)。导入结果保存在 `server/data/catalog.json` 和 `public/media/`，没有改动 Wiki 的 sources。
 
-同时更新分享版目录：`python3 scripts/import-issues.py --sync-share`（去除本机来源路径）。图片文件仍沿用两版已有的原始资源。回归核对：在仓库根目录运行 `python3 prototype/qa/check-figure-order.py`，需要本机原 EPUB，可检查全部文章的图文顺序、段落引用、两版一致性与图片字节。
+导入《大西洋月刊》可运行 `python3 scripts/import-atlantic.py /path/to/issue.epub`，也可以一次传入多个 Calibre EPUB。脚本通过原文地址校验期号。2026 年 6、8、9 月的数据来自现有 EPUB，覆盖范围以文件所收录的正文为准。6 月号的 Caleb’s Inferno 条目只有外链。
+
+把已导入的目录和配图同步到分享版：`python3 scripts/sync_share_catalog.py`。同步会去除本机来源路径，无需重读原 EPUB。重导入《经济学人》时也可用 `python3 scripts/import-issues.py --sync-share` 一并同步。回归核对：在仓库根目录运行 `python3 prototype/qa/check-figure-order.py`，需要本机原 EPUB，可检查文章的图文顺序、段落引用、两版一致性与图片字节。
 
 ## 已接通与演示范围
 

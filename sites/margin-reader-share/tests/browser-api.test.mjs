@@ -24,11 +24,24 @@ test('article API retains inline figure positions and all four economic data ima
  }
 });
 
-test('225 articles remain readable with no workstation paths in published content',async()=>{
- const api=makeApi(storage());const catalog=await api('/catalog');assert.equal(catalog.articles.length,225);assert.ok(catalog.articles.every(a=>!a.paragraphs));
+test('all nine editions are readable with no workstation paths in published content',async()=>{
+ const api=makeApi(storage());const catalog=await api('/catalog');
+ assert.equal(catalog.articles.length,431);
+ assert.deepEqual(catalog.issues.map(i=>[i.id,i.articleCount]),[
+  ['2026-11-21',80],['2026-11-14',76],['2026-11-07',76],['2026-10-24',75],['2026-10-03',74],
+  ['2026-11-14-spiegel',9],['2026-09-atlantic',15],['2026-08-atlantic',13],['2026-06-atlantic',13]
+ ]);
+ assert.ok(catalog.articles.every(a=>!a.paragraphs));
+ for(const issue of catalog.issues){
+  assert.equal(catalog.articles.filter(a=>a.issueId===issue.id).length,issue.articleCount);
+  assert.ok((await readFile(new URL('../public'+issue.cover,import.meta.url))).length>0);
+ }
+ const german=await api('/article/2026-11-14-spiegel-001');
+ assert.equal(german.language,'de');
+ assert.ok(german.paragraphs.length);
  const full=await api('/article/'+article.id);assert.ok(full.paragraphs.length);
  assert.ok(!JSON.stringify(fixtures).includes('/Users/'));
- assert.deepEqual(await api('/state'),{notes:[],drafts:[],vocabulary:[],attempts:[],reading:[]});
+ assert.deepEqual(await api('/state'),{notes:[],drafts:[],vocabulary:[],attempts:[],reading:[],favorites:[]});
 });
 test('browser records persist on reopen and remain isolated across visitors',async()=>{
  const a=storage(),b=storage();const first=makeApi(a);await first('/notes',{...selection,quote:selection.text,noteText:'我还不确定。',kind:'note',tag:'问题'});
@@ -74,4 +87,33 @@ test('an invalid batch or blocked save never partially adds key vocabulary',asyn
  assert.equal((await api('/state')).vocabulary.length,0);
  const blocked=makeApi({getItem:()=>null,setItem:()=>{throw new Error('QuotaExceededError')}});
  await assert.rejects(blocked('/vocabulary/batch',{words:[{...selection,meaning:'假设'}]}),/未能保存/);
+});
+
+test('favorites persist, deduplicate, export, remove and remain isolated',async()=>{
+ const s=storage(),api=makeApi(s),body={articleId:article.id,saved:true};
+ await api('/favorites',body); await api('/favorites',body);
+ assert.equal((await makeApi(s)('/state')).favorites.length,1);
+ assert.equal((await api('/export')).state.favorites[0].articleId,article.id);
+ assert.equal((await makeApi(storage())('/state')).favorites.length,0);
+ await assert.rejects(api('/favorites',{articleId:'missing',saved:true}),/无效/);
+ await assert.rejects(api('/favorites',{articleId:article.id,saved:'true'}),/无效/);
+ await api('/favorites',{...body,saved:false});
+ await api('/favorites',{...body,saved:false});
+ assert.deepEqual((await makeApi(s)('/state')).favorites,[]);
+});
+test('legacy records gain favorites without losing learning data',async()=>{
+ const s=storage(),api=makeApi(s);
+ await api('/notes',{...selection,quote:selection.text,noteText:'保留笔记',kind:'note'});
+ const legacy=JSON.parse(s.getItem('margin-reader-share:v1'));delete legacy.favorites;
+ s.setItem('margin-reader-share:v1',JSON.stringify(legacy));
+ const reopened=makeApi(s);
+ assert.deepEqual((await reopened('/state')).favorites,[]);
+ await reopened('/favorites',{articleId:article.id,saved:true});
+ assert.equal((await reopened('/state')).notes[0].text,'保留笔记');
+});
+test('favorites reject blocked storage and malformed stored favorites',async()=>{
+ const api=makeApi({getItem:()=>null,setItem:()=>{throw new Error('QuotaExceededError')}});
+ await assert.rejects(api('/favorites',{articleId:article.id,saved:true}),/未能保存/);
+ const s=storage();s.setItem('margin-reader-share:v1',JSON.stringify({notes:[],drafts:[],vocabulary:[],attempts:[],reading:[],decisions:[],favorites:null}));
+ await assert.rejects(makeApi(s)('/state'),/无法读取/);
 });

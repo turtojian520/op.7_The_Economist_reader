@@ -2139,3 +2139,11 @@ h3 {
 .figure-viewport img.is-zoomed { width: 200%; max-width: none; max-height: none; }
 body:has(.figure-dialog[open]) { overflow: hidden; }
 .image-article-notice { color: var(--muted); font-size: 13px; }
+
+/* Article links and bookmark controls remain separate keyboard targets. */
+.article-open { display:flex; align-items:center; gap:24px; flex:1; min-width:0; text-align:left; border:0; background:transparent; padding:0; }
+.favorite-button { display:inline-flex; align-items:center; justify-content:center; gap:6px; flex-shrink:0; min-width:40px; min-height:40px; padding:8px; border:1px solid var(--rule); border-radius:6px; background:transparent; }
+.favorite-button.is-saved { color:var(--accent, #a34e34); background:var(--panel); }
+.favorite-button:disabled { opacity:.5; cursor:wait; }
+.favorite-button:focus-visible, .article-open:focus-visible { outline:2px solid currentColor; outline-offset:3px; }
+@media (max-width:700px) { .article-open {gap:12px;} .article-open > svg {display:none;} .article-row {gap:8px;} .reading-toolbar {flex-wrap:wrap;} .reader-settings {flex-wrap:wrap;} }

@@ -47,7 +47,7 @@ const api = async (path, body) => {
   if (!r.ok) throw new Error(d.error || "请求失败，请重试");
   return d;
 };
-const date = (d) => d.replaceAll("-", ".");
+const date = (d) => (d.match(/^\d{4}-\d{2}(?:-\d{2})?/)?.[0] ?? d).replaceAll("-", ".");
 const Icon = ({ name: Component, size = 18, ...p }) => (
   <Component size={size} strokeWidth={1.5} aria-hidden="true" {...p} />
 );
@@ -442,10 +442,10 @@ function App() {
             <section className="issues-section">
               <div className="section-heading">
                 <h2>你的期刊</h2>
-                <span>来自 Calibre 的最近三期</span>
+                <span>来自 Calibre 的 {catalog.issues.length} 份期刊与新闻合集</span>
               </div>
               <div className="issue-shelf">
-                {catalog.issues.map((i, index) => (
+                {catalog.issues.map((i) => (
                   <button
                     className={
                       "issue-item " + (issue === i.id ? "selected" : "")
@@ -453,6 +453,7 @@ function App() {
                     key={i.id}
                     onClick={() => {
                       setIssue(issue === i.id ? "all" : i.id);
+                      setTopic("all");
                       document.getElementById("article-list")?.scrollIntoView({
                         behavior: "smooth",
                         block: "start",
@@ -461,10 +462,10 @@ function App() {
                   >
                     <img
                       src={i.cover}
-                      alt={"The Economist " + i.date + " 期封面"}
+                      alt={i.title + " " + i.date + " 封面"}
                     />
                     <span className="issue-info">
-                      <span>{index === 0 ? "最新一期" : "往期阅读"}</span>
+                      <span>{i.title}</span>
                       <strong>{date(i.date)}</strong>
                       <span>
                         {i.articleCount} 篇文章 <ChevronRight size={16} />
@@ -579,8 +580,8 @@ function App() {
               )}
             </section>
             <div className="coverage-note">
-              已收录 3 期，{catalog.articles.length}{" "}
-              篇文章。补读范围仅限这三期；文章与图片均来自你的本地期刊。
+              已收录 {catalog.issues.length} 期，{catalog.articles.length}{" "}
+              篇文章。补读范围仅限已导入期刊；文章与图片均来自你的本地期刊。
             </div>
           </div>
         )}
@@ -650,7 +651,7 @@ function App() {
                     <p className="article-deck">{article.deck}</p>
                   )}
                   <div className="story-meta">
-                    <span>The Economist</span>
+                    <span>{catalog.issues.find((i) => i.id === article.issueId)?.title}</span>
                     <span>{article.published || date(article.issueId)}</span>
                     <span>约 {article.minutes} 分钟</span>
                   </div>
@@ -1209,7 +1210,7 @@ function App() {
         </span>
         <span>
           本地原型 <span className="footer-separator">/</span>{" "}
-          三期原刊，私人收藏
+          原刊阅读，私人收藏
         </span>
       </footer>
       {toast && (

@@ -1,5 +1,5 @@
 const STORAGE_KEY = 'margin-reader-share:v1';
-const kinds = ['notes', 'drafts', 'vocabulary', 'attempts', 'reading'];
+const kinds = ['notes', 'drafts', 'vocabulary', 'attempts', 'reading', 'favorites'];
 const emptyState = () => Object.fromEntries([...kinds, 'decisions'].map(key => [key, []]));
 const clone = value => structuredClone(value);
 
@@ -19,6 +19,8 @@ export function createBrowserApi({storage, fetcher = globalThis.fetch, makeId = 
       const raw = getStorage().getItem(STORAGE_KEY);
       if (!raw) return emptyState();
       const state = JSON.parse(raw);
+      // Records saved before article favorites were introduced remain readable.
+      if (!Object.hasOwn(state, 'favorites')) state.favorites = [];
       if (![...kinds, 'decisions'].every(key => Array.isArray(state[key]))) throw new Error('Invalid state');
       return state;
     } catch {
@@ -32,6 +34,7 @@ export function createBrowserApi({storage, fetcher = globalThis.fetch, makeId = 
   const snapshot = state => {
     const output = Object.fromEntries(kinds.map(key => [key, clone(state[key])]));
     output.notes.sort((a,b) => b.createdAt.localeCompare(a.createdAt));
+    output.favorites.sort((a,b) => b.createdAt.localeCompare(a.createdAt));
     output.reading.sort((a,b) => b.updatedAt.localeCompare(a.updatedAt));
     return output;
   };
@@ -76,7 +79,15 @@ export function createBrowserApi({storage, fetcher = globalThis.fetch, makeId = 
     const state = read();
     const createdAt = now().toISOString();
     let result;
-    if (path === '/reading') {
+    if (path === '/favorites') {
+      const articleId = string(body,'articleId',80,true);
+      const article = articles.find(a => a.id === articleId);
+      if (!article || typeof body.saved !== 'boolean') throw new Error('收藏状态无效。');
+      const old = state.favorites.find(f => f.articleId === articleId);
+      state.favorites = state.favorites.filter(f => f.articleId !== articleId);
+      result = body.saved ? (old || {articleId,createdAt}) : {articleId,saved:false};
+      if (body.saved) state.favorites.push(result);
+    } else if (path === '/reading') {
       const articleId = string(body,'articleId',80,true);
       if (!articles.some(a => a.id === articleId) || !['reading','completed'].includes(body.status)) throw new Error('阅读状态无效。');
       result = {id:articleId,articleId,status:body.status,updatedAt:createdAt};

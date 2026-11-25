@@ -55,6 +55,7 @@ function App() {
       vocabulary: [],
       attempts: [],
       reading: [],
+      favorites: [],
     }),
     [article, setArticle] = useState(null),
     [busy, setBusy] = useState(true),
@@ -92,6 +93,7 @@ function App() {
     lookupAbort.current?.abort();
     lookupSeq.current++;
     setView(v);
+    if (v === "favorites") { setIssue("all"); setTopic("all"); setQuery(""); setLimit(30); }
     location.hash = v;
     window.scrollTo({ top: 0 });
     setSelection(null);
@@ -166,6 +168,20 @@ function App() {
       notify(e.message);
     } finally {
       setSaving(false);
+    }
+  };
+  const favoriteBusy = useRef(false);
+  const toggleFavorite = async (id) => {
+    if (favoriteBusy.current) return;
+    favoriteBusy.current = true;
+    try {
+      await run(async () => {
+        const saved = !state.favorites.some(f => f.articleId === id);
+        await api("/favorites", {articleId: id, saved});
+        notify(saved ? "已加入收藏夹" : "已取消收藏");
+      });
+    } finally {
+      favoriteBusy.current = false;
     }
   };
   const selectText = () => {
@@ -304,6 +320,8 @@ function App() {
     );
   const readStatus = (id) =>
     state.reading.find((r) => r.articleId === id)?.status;
+  const selectedIssue = catalog.issues.find((entry) => entry.id === issue);
+  const articleIssue = catalog.issues.find((entry) => entry.id === article?.issueId);
   const recommendations = catalog.articles
     .filter(
       (a) =>
@@ -317,14 +335,28 @@ function App() {
         ].includes(a.section),
     )
     .slice(0, 4);
+  const isFavorite = (id) => state.favorites.some(f => f.articleId === id);
   const displayArticles = catalog.articles.filter(
     (a) =>
+      (view !== "favorites" || isFavorite(a.id)) &&
       (issue === "all" || a.issueId === issue) &&
       (topic === "all" || a.section === topic) &&
       (!query ||
         (a.title + " " + a.deck + " " + a.section)
           .toLowerCase()
           .includes(query.toLowerCase())),
+  );
+  if (view === "favorites") displayArticles.sort((a,b) =>
+    state.favorites.findIndex(f => f.articleId === a.id) - state.favorites.findIndex(f => f.articleId === b.id));
+  const favoriteButton = (a, compact = false) => (
+    <button className={"favorite-button " + (isFavorite(a.id) ? "is-saved" : "")}
+      disabled={saving} aria-pressed={isFavorite(a.id)}
+      aria-label={(isFavorite(a.id) ? "取消收藏：" : "收藏文章：") + a.title}
+      title={isFavorite(a.id) ? "取消收藏" : "加入收藏夹"}
+      onClick={() => toggleFavorite(a.id)}>
+      <Icon name={Bookmark} size={18} fill={isFavorite(a.id) ? "currentColor" : "none"} />
+      {!compact && (isFavorite(a.id) ? "已收藏" : "加入收藏夹")}
+    </button>
   );
   const featured = catalog.articles.find((a) => a.id === catalog.featuredId);
   return (
@@ -340,6 +372,7 @@ function App() {
           {[
             ["library", "书架", BookOpen],
             ["reader", "阅读", FileText],
+            ["favorites", "收藏夹", Bookmark],
             ["practice", "词汇练习", Keyboard],
             ["notes", "我的笔记", PenLine],
           ].map(([id, label, I]) => (
@@ -369,18 +402,19 @@ function App() {
         </span>
       </header>
       <main>
-        {view === "library" && (
+        {(view === "library" || view === "favorites") && (
           <div className="library page-wrap">
             <div className="page-heading">
               <div>
-                <h1>在世界的字里行间。</h1>
-                <p>读你关心的事，让英语在语境里生长。</p>
+                <h1>{view === "favorites" ? "我的收藏夹" : "在世界的字里行间。"}</h1>
+                <p>{view === "favorites" ? `已收藏 ${state.favorites.length} 篇文章，留待下一次细读。` : "读你关心的事，让英语在语境里生长。"}</p>
               </div>
               <span className="edition-date">
                 2026 年 11 月 9 日<br />
                 <span>你的私人阅读室</span>
               </span>
             </div>
+            {view === "library" && <>
             <section className="library-grid" aria-label="本周选读">
               <div className="lead-story">
                 <div className="story-copy">
@@ -445,10 +479,10 @@ function App() {
             <section className="issues-section">
               <div className="section-heading">
                 <h2>你的期刊</h2>
-                <span>已导入的三期原刊</span>
+                <span>已导入 {catalog.issues.length} 份期刊与新闻合集</span>
               </div>
               <div className="issue-shelf">
-                {catalog.issues.map((i, index) => (
+                {catalog.issues.map((i) => (
                   <button
                     className={
                       "issue-item " + (issue === i.id ? "selected" : "")
@@ -456,6 +490,8 @@ function App() {
                     key={i.id}
                     onClick={() => {
                       setIssue(issue === i.id ? "all" : i.id);
+                      setTopic("all");
+                      setQuery("");
                       document.getElementById("article-list")?.scrollIntoView({
                         behavior: "smooth",
                         block: "start",
@@ -464,10 +500,10 @@ function App() {
                   >
                     <img
                       src={i.cover}
-                      alt={"The Economist " + i.date + " 期封面"}
+                      alt={i.title + " " + i.date + " 封面"}
                     />
                     <span className="issue-info">
-                      <span>{index === 0 ? "最新一期" : "往期阅读"}</span>
+                      <span>{i.title}</span>
                       <strong>{date(i.date)}</strong>
                       <span>
                         {i.articleCount} 篇文章 <ChevronRight size={16} />
@@ -477,12 +513,13 @@ function App() {
                 ))}
               </div>
             </section>
+            </>}
             <section id="article-list" className="article-catalog">
               <div className="section-heading">
                 <h2>
-                  {issue === "all"
-                    ? "沿着兴趣，继续读"
-                    : date(issue) + " 期目录"}
+                  {view === "favorites" ? "收藏的文章" : selectedIssue
+                    ? selectedIssue.title + " · " + date(selectedIssue.date)
+                    : "沿着兴趣，继续读"}
                 </h2>
                 <span>
                   {displayArticles.length} 篇
@@ -533,25 +570,23 @@ function App() {
                 {displayArticles.length === 0 ? (
                   <div className="empty">
                     <Search />
-                    <h3>没有找到这篇文章</h3>
-                    <p>换个关键词，或试试其他期刊和栏目。</p>
+                    <h3>{view === "favorites" && !state.favorites.length ? "收藏夹还是空的" : "没有找到这篇文章"}</h3>
+                    <p>{view === "favorites" && !state.favorites.length ? "点击文章旁的书签，把想再读的文章收在这里。" : "换个关键词，或试试其他期刊和栏目。"}</p>
                     <button
                       onClick={() => {
+                        if (view === "favorites" && !state.favorites.length) go("library");
                         setQuery("");
                         setTopic("all");
                         setIssue("all");
                       }}
                     >
-                      清除筛选
+                      {view === "favorites" && !state.favorites.length ? "去书架看看" : "清除筛选"}
                     </button>
                   </div>
                 ) : (
                   displayArticles.slice(0, limit).map((a, index) => (
-                    <button
-                      className="article-row"
-                      key={a.id}
-                      onClick={() => openArticle(a.id)}
-                    >
+                    <div className="article-row" key={a.id}>
+                    <button className="article-open" onClick={() => openArticle(a.id)}>
                       <span className="row-number">
                         {String(index + 1).padStart(2, "0")}
                       </span>
@@ -569,6 +604,8 @@ function App() {
                       </div>
                       <Icon name={ArrowUpRight} />
                     </button>
+                    {favoriteButton(a, true)}
+                    </div>
                   ))
                 )}
               </div>
@@ -582,8 +619,8 @@ function App() {
               )}
             </section>
             <div className="coverage-note">
-              已收录 3 期，{catalog.articles.length}{" "}
-              篇文章。补读范围仅限这三期；文章与图片来自已导入期刊。你的笔记仅保存在此浏览器。
+              已收录 {catalog.issues.length} 期，{catalog.articles.length}{" "}
+              篇文章。补读范围仅限已导入期刊；文章与图片来自已导入期刊。你的笔记仅保存在此浏览器。
             </div>
           </div>
         )}
@@ -594,10 +631,11 @@ function App() {
                 <Icon name={ArrowLeft} /> 返回书架
               </button>
               <span>
-                {date(article.issueId)}{" "}
+                {date(articleIssue?.date ?? article.issueId)}{" "}
                 <span className="toolbar-divider">/</span> {article.section}
               </span>
               <div className="reader-settings">
+                {favoriteButton(article)}
                 <button
                   aria-label="减小字号"
                   onClick={() => setFontSize(Math.max(16, fontSize - 1))}
@@ -653,15 +691,15 @@ function App() {
                     <p className="article-deck">{article.deck}</p>
                   )}
                   <div className="story-meta">
-                    <span>The Economist</span>
-                    <span>{article.published || date(article.issueId)}</span>
+                    <span>{articleIssue?.title}</span>
+                    <span>{article.published || date(articleIssue?.date ?? article.issueId)}</span>
                     <span>约 {article.minutes} 分钟</span>
                   </div>
                 </div>
                 {article.imageOnly && (
                   <p className="image-article-notice">本页为原刊数据图表，点击图片可放大；图中文字尚未转为可选文本。</p>
                 )}
-                <div className="article-body">
+                <div className="article-body" lang={article.language || articleIssue?.language || "en"}>
                   {(article.blocks || [
                     ...(article.images || []).map((src) => ({ type: "image", src })),
                     ...article.paragraphs.map((p) => ({ type: "paragraph", paragraphId: p.id })),

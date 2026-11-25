@@ -12,7 +12,13 @@ def req(path,data=None,status=200):
 
 def remember(kind,r):created.append((kind,r['id']));return r
 try:
-    c=req('/catalog');assert len(c['articles'])==225;assert [i['articleCount'] for i in c['issues']]==[76,75,74]
+    c=req('/catalog')
+    actual_counts={i['id']:i['articleCount'] for i in c['issues']}
+    assert len(actual_counts)==len(c['issues'])
+    assert sum(actual_counts.values())==len(c['articles'])
+    assert all(sum(a['issueId']==issue_id for a in c['articles'])==count
+               for issue_id,count in actual_counts.items())
+    assert len({a['id'] for a in c['articles']})==len(c['articles'])
     a=req('/article/'+c['featuredId']);p=next(p for p in a['paragraphs'] if 'hypothesis' in p['text']);sel={'articleId':a['id'],'paragraphId':p['id'],'text':'hypothesis'}
     assert req('/lookup',sel)['meaning'].startswith('n.')
     req('/lookup',{**sel,'text':'THIS IS NOT IN THE ARTICLE'},400)
@@ -39,7 +45,7 @@ try:
     second=remember('attempts',req('/attempts',{'vocabularyId':v['id'],'answer':'supercharge','mode':'cloze','group':group},201));assert second['correct'] and not second['firstCorrect']
     assisted=remember('attempts',req('/attempts',{'vocabularyId':v['id'],'answer':'supercharge','mode':'copy','group':str(uuid.uuid4())},201));assert assisted['assisted'] and not assisted['firstCorrect']
     assert req('/export')['history']
-    print('PASS: 225-article catalogue, provenance, lookup fallback, user-only original notes, pending isolation, stale version, acceptance diff, duplicate refusal, revocation, rejection, and recall scoring.')
+    print('PASS: catalogue counts, provenance, lookup fallback, user-only original notes, pending isolation, stale version, acceptance diff, duplicate refusal, revocation, rejection, and recall scoring.')
 finally:
     root=Path(__file__).resolve().parents[1];socket='/tmp/margin-'+hashlib.sha256(str(root/'server').encode()).hexdigest()[:12]+'.sock'
     # IDs are application-generated hex or known reviewed-hex; never arbitrary input.

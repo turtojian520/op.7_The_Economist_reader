@@ -139,3 +139,66 @@
 - 新增原 EPUB 图文顺序与图片字节核对脚本、分享版回归测试与浏览器验证记录；原始 sources 与 schema 未修改。
 - 更新图表核查综合页、index 及两版 README。
 - 分享站第 7 版发布 succeeded，保留公开访问范围；线上确认地图位于 p1 与 p2 之间且原图加载成功。部署记录见 sites/margin-reader-deployment.json。
+
+## [2026-11-14] query | GitHub 上的德语明镜下载资源
+- 检索 DER SPIEGEL 的 PDF / EPUB 仓库；找到 https://github.com/isync/www-derspiegel ，README 描述从历史档案抓取文章并合并 PDF，也明确征求修复，当前下载可用性待验证；未找到可确认持续更新的整刊文件库。
+- 官方 FAQ https://abo.spiegel.de/service/faq/ 说明订阅用户可下载 ePaper PDF；未实测账号下载，未改动原始素材。此次为资源线索查询，未将待验证工具另建为长期综合结论。
+
+## [2026-11-14] query | GitHub 以外的明镜 PDF 与 EPUB 渠道
+- 核查官方 FAQ https://abo.spiegel.de/service/faq/ 和 ePaper 订阅页 https://abo.spiegel.de/digital-abos/e-paper/ ：提供订阅 PDF 下载；iKiosk https://en.ikiosk.de/shop/epaper/der-spiegel.html 也明确标注 PDF 下载。
+- 第三方 https://de.downmagaz.net/tags/der%20spiegel/ 有德语整刊 PDF 条目；仅确认页面描述，未验证外部网盘下载和授权状况。未找到可确认的整刊 EPUB 下载渠道。
+- 未下载期刊、未修改原始素材；本次为渠道查询，未另建长期综合页面。
+
+## [2026-11-14] query | Calibre Fetch news 能否抓取明镜
+- 核查上游配方 https://github.com/kovidgoyal/calibre/blob/master/recipes/spiegelde.recipe ：标题为 Spiegel Online RSS - German alle Themen，语言 de，默认最近 7 天 RSS 新闻，无订阅登录逻辑，属于网站文章合集而非按期整刊。
+- 官方文档 https://manual.calibre-ebook.com/news.html 说明新闻配方可生成 EPUB；尚未实际运行明镜抓取，付费文章完整性及各 RSS 地址当前可用性待验证。
+- 建议学习用途尝试 RSS EPUB；原刊版面仍采用官方 ePaper PDF。未改动原始素材。
+
+## [2026-11-14] query | Calibre App 与 Fetch news 命令行对应
+- 用户在 App 成功下载书库条目 525；检查该目录实际文件为 MOBI，使用 Calibre 9.18.0 ebook-convert 转为 artifacts/spiegel-2026-11-14/spiegel-app-download.epub，未修改书库原文件。
+- --list-recipes 确认内置名称 Spiegel Online RSS - German alle Themen；后续优先直接调用内置配方，必要时模仿 App 操作。下载成功与正文完整性分别核查，统计见 artifacts/spiegel-2026-11-14/app-download-audit.json。
+
+## [2026-11-14] query | 筛选用户 Calibre 明镜下载并核验导入条件
+- 用户指定书库条目 525；仅使用其 MOBI 转换结果作候选，网页只核验、不补写下载正文。
+- 179 条：69 条订阅提示，4 条无公开正文，106 条缺段。直接解包原 MOBI 后，106 条各有至少一段缺失内容在整个原始解包文本中也不存在。通过 0 条，新增导入 0 条；阅读器现有目录、学习记录及书库原文件未修改。
+- 新增 wiki/synthesis/spiegel-calibre-import-audit.md，更新 index；逐篇结果见 artifacts/spiegel-2026-11-14/app-filter-report.md、app-filter-report.json，可复查网页快照与原始 MOBI 解包文本。
+
+## [2026-11-16] query | 本地 PHP 后端技术在项目中的应用
+- 读取 Wiki 索引、本地启动脚本、React 请求封装、PHP 路由及两个版本的说明，确认 Apache → PHP-FPM → PDO/MariaDB 的调用链与持久化分工。
+- 引用对话没有可用的 read_thread 接口；浏览器访问显示未登录，未取得正文，未据对话标题推断具体技术清单。
+- 新增 wiki/synthesis/local-php-backend-architecture.md 并更新 index；明确分享版 Worker/DeepSeek/localStorage 与本地原型独立。本次未启动服务，未修改产品代码、原始素材或 schema。
+
+## [2026-11-16] query | 两版后端与存储差异及统一路线
+- 核查分享版 browser-api 和 Worker 路由：学习记录仅保存在浏览器，Worker 处理 AI 接口；区分运行环境选择与存储选择。
+- 查阅 MDN localStorage 与 Cloudflare Workers 官方存储文档；更新本地后端综合页和 index，记录用途取舍为推断，统一接口与按需账号同步为建议。
+- 未修改产品实现或原始素材；未选择或部署新数据库。
+
+## [2026-11-16] ingest | 导师谈话中的 12 月 1 日公开构建活动
+- source: sources/2026-11-16-notebooklm-build-in-public-workshop/
+- 通过 NotebookLM source_list/source_read 读取「Nov.16大吾老师生涯指导谈话」的唯一媒体来源；仅保存活动相关逐字摘录 E1–E5 与偏移、来源 ID、校验哈希，未保存无关个人谈话，未下载或核听音频。
+- 新增页面：wiki/sources/dawu-build-in-public-workshop.md、wiki/entities/margin-reader.md、wiki/concepts/build-in-public.md。
+- 更新页面：wiki/concepts/vibe-coding.md、wiki/overview.md、wiki/index.md。
+- 谈话确定 12 月 1 日 13:30–15:00；系列名称、第二主讲人和积分保留待验证。记录谈话“尚未托管”与仓库已有分享版的状态描述差异，不据此断定历史版本关系。
+- 旧 sources 文件与 schema 未改动；没有向 NotebookLM 写入、发送消息、发布活动或修改产品代码。
+
+## [2026-11-16] query | 用旁读设计 12 月 1 日 Build in Public Workshop
+- 新增页面：wiki/synthesis/build-in-public-workshop-2026-12-01.md，更新 index 与来源/实体/概念交叉链接。
+- 方案包含 90 分钟流程、产品演示与工作流脚本、按文章筛选词汇的现场待开发任务、验收表与失败备选、需求卡与行动卡、匿名前后反馈、12 月 8 日回访、筹备分工和可交老师排版的预告。
+- 当前能力通过仓库 README、main.jsx、browser-api.js 等静态核查；区分实时 AI、模板整理与计划任务，未复测线上功能或开展彩排。
+
+## [2026-11-16] lint | Workshop 资料入库后检查
+- python3 scripts/verify_sources.py：27 个文件哈希通过，失败 0；原有 26 个素材文件保持一致。
+- python3 scripts/lint_wiki.py：断链、页面格式、索引共 0 个问题；git diff --check 通过。
+- 新页与 index、来源摘要、相关页面互链；新引入的旁读实体与公开构建概念已建页。转录错词、系列名称、场地、合作主讲人与实际线上状态保留待确认或待验证。
+
+## [2026-11-17] query | 整理可发给大吾老师的活动大纲与招募预告
+- 依据既有谈话摘要与活动方案，新建 wiki/synthesis/build-in-public-workshop-teacher-copy.md，包含给老师的消息开头、90 分钟活动大纲、公众号/报名页招募文案、海报/群通知短预告。
+- 更新 index 与原方案的交叉链接。地点、主讲人署名、报名入口等用明确占位符；系列归属、第二主讲人及积分保留待确认，不作确定承诺。
+- 本次仅整理文案，未发送消息、发布招募、修改产品代码或改动原始 sources。
+
+
+## [2026-11-17] update | 确认 Workshop 时间地点并强化“边做边学消解焦虑”主题文案
+- 用户确认最新活动时间与地点：2026 年 12 月 1 日（周二）13:00–14:30，学生社区 85号楼 理享家 视听室。
+- 紧扣 11 月 16 日导师谈话（E1–E5）中表达的核心思想（用动手实践消解 AI 焦虑、从真实需求出发“先做先学/边做边学”、Build in Public 同伴监督与连接合作者，以及契合老师的 PERMA / 五心活动框架），重写并升级 `wiki/synthesis/build-in-public-workshop-teacher-copy.md`（含活动大纲、微信公众号招募文案、海报版与微信群版短预告、前后微测评题目建议）。
+- 同步更新 `wiki/synthesis/build-in-public-workshop-2026-12-01.md`、`wiki/sources/dawu-build-in-public-workshop.md`、`wiki/index.md` 中的时间（13:00–14:30）与地点信息。
+- 原始 sources 与 schema 未修改。

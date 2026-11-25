@@ -1,0 +1,1245 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" xmlns:calibre="http://calibre.kovidgoyal.net/2009/metadata" xml:lang="en">
+  <head>
+    <meta name="dtb:uid" content="f28295a2-8162-4b8b-a388-1836077a29fd"/>
+    <meta name="dtb:depth" content="4"/>
+    <meta name="dtb:generator" content="calibre (9.18.0)"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Table of Contents</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Spiegel Online RSS - German alle Themen</text>
+      </navLabel>
+      <content src="index.html#filepos5719"/>
+      <navPoint id="num_2" playOrder="2">
+        <navLabel>
+          <text>Politik DE</text>
+        </navLabel>
+        <content src="index.html#filepos5719"/>
+        <navPoint id="num_3" playOrder="3">
+          <navLabel>
+            <text>SPD-Parteitag: Genossen planen Anti-Klingbeil-Antrag</text>
+          </navLabel>
+          <content src="index.html#filepos5719"/>
+        </navPoint>
+        <navPoint id="num_4" playOrder="4">
+          <navLabel>
+            <text>News: Trauerakt für Hubert Aiwanger, Friedrich Merz und Stromsteuer, Rot-Grün-Rot in Berlin</text>
+          </navLabel>
+          <content src="index.html#filepos6212"/>
+        </navPoint>
+        <navPoint id="num_5" playOrder="5">
+          <navLabel>
+            <text>News des Tages: Störung bei Microsoft, Issa Rammo im EU-Parlament, Katherina Reiche plant Notfall-Gesetz für Gasmangel</text>
+          </navLabel>
+          <content src="index.html#filepos8385"/>
+        </navPoint>
+        <navPoint id="num_6" playOrder="6">
+          <navLabel>
+            <text>Thomas Berthold: AfD will wohl Fußballweltmeister bei Bundespräsidentinnen-Wahl aufstellen</text>
+          </navLabel>
+          <content src="index.html#filepos10864"/>
+        </navPoint>
+        <navPoint id="num_7" playOrder="7">
+          <navLabel>
+            <text>Angela Merkel würde heute für die »Ehe für alle« stimmen</text>
+          </navLabel>
+          <content src="index.html#filepos11748"/>
+        </navPoint>
+        <navPoint id="num_8" playOrder="8">
+          <navLabel>
+            <text>Bundeshaushalt: Die fetten Jahre sind vorbei - Kommentar</text>
+          </navLabel>
+          <content src="index.html#filepos12532"/>
+        </navPoint>
+        <navPoint id="num_9" playOrder="9">
+          <navLabel>
+            <text>Steffen Krach: Staatsanwaltschaft will Immunität von SPD-Fraktionschef aufheben</text>
+          </navLabel>
+          <content src="index.html#filepos13020"/>
+        </navPoint>
+        <navPoint id="num_10" playOrder="10">
+          <navLabel>
+            <text>Ilse Aigner, Angela Merkel, Ursula von der Leyen: Was konservative Frauen besser können – Kolumne</text>
+          </navLabel>
+          <content src="index.html#filepos13990"/>
+        </navPoint>
+        <navPoint id="num_11" playOrder="11">
+          <navLabel>
+            <text>CDU-Europapartei: Clanchef Issa Rammo taucht bei EVP-Veranstaltung auf</text>
+          </navLabel>
+          <content src="index.html#filepos14520"/>
+        </navPoint>
+        <navPoint id="num_12" playOrder="12">
+          <navLabel>
+            <text>News: Geheimdienstreform, CDU-Frust über Friedrich Merz, Klimaproteste</text>
+          </navLabel>
+          <content src="index.html#filepos15022"/>
+        </navPoint>
+        <navPoint id="num_13" playOrder="13">
+          <navLabel>
+            <text>Friedrich Merz: Kann ihr Kanzler gut verhandeln? Eher nicht, finden sie in der CDU</text>
+          </navLabel>
+          <content src="index.html#filepos16246"/>
+        </navPoint>
+        <navPoint id="num_14" playOrder="14">
+          <navLabel>
+            <text>News des Tages: Nvidia-Chef Jensen Huang tritt zurück, Startchancengesetz für Kitakinder, Hype um Grand Theft Auto 6</text>
+          </navLabel>
+          <content src="index.html#filepos16760"/>
+        </navPoint>
+        <navPoint id="num_15" playOrder="15">
+          <navLabel>
+            <text>Warum Markus Söder jetzt noch breitbeiniger durch Berlin laufen dürfte</text>
+          </navLabel>
+          <content src="index.html#filepos19097"/>
+        </navPoint>
+        <navPoint id="num_16" playOrder="16">
+          <navLabel>
+            <text>AfD: Streit über Abschiebungen verschärft Machtkampf in der Führung</text>
+          </navLabel>
+          <content src="index.html#filepos19601"/>
+        </navPoint>
+        <navPoint id="num_17" playOrder="17">
+          <navLabel>
+            <text>August Hanning: Pension von Ex-BND-Chef in sechsstelliger Höhe gepfändet</text>
+          </navLabel>
+          <content src="index.html#filepos20103"/>
+        </navPoint>
+        <navPoint id="num_18" playOrder="18">
+          <navLabel>
+            <text>Neues Kita-Gesetz: Wer bessere Chancen für Kinder fordert, muss dafür auch Geld klarmachen</text>
+          </navLabel>
+          <content src="index.html#filepos20609"/>
+        </navPoint>
+        <navPoint id="num_19" playOrder="19">
+          <navLabel>
+            <text>Die Linke in Berlin: Darf eine belastete Partei die Hauptstadt regieren? - Podcast</text>
+          </navLabel>
+          <content src="index.html#filepos21133"/>
+        </navPoint>
+        <navPoint id="num_20" playOrder="20">
+          <navLabel>
+            <text>Bundeswehr-Flugbereitschaft: Warum so viele Regierungsmaschinen ohne Politiker herumfliegen</text>
+          </navLabel>
+          <content src="index.html#filepos21462"/>
+        </navPoint>
+        <navPoint id="num_21" playOrder="21">
+          <navLabel>
+            <text>Ukraine: SPD stellt sich im Haushaltsstreit hinter Kanzler Merz</text>
+          </navLabel>
+          <content src="index.html#filepos21985"/>
+        </navPoint>
+        <navPoint id="num_22" playOrder="22">
+          <navLabel>
+            <text>Freie Wähler: Was wird ohne Hubert Aiwanger aus der Partei?</text>
+          </navLabel>
+          <content src="index.html#filepos22480"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_23" playOrder="3">
+        <navLabel>
+          <text>Wirtschaft Verbraucher und Service</text>
+        </navLabel>
+        <content src="index.html#filepos24925"/>
+        <navPoint id="num_24" playOrder="4">
+          <navLabel>
+            <text>Haushalt und Reformen: Das bedeutet es für Ihr Konto – Steuern, Rente, Versicherung</text>
+          </navLabel>
+          <content src="index.html#filepos24925"/>
+        </navPoint>
+        <navPoint id="num_25" playOrder="5">
+          <navLabel>
+            <text>dm-Rückruf: Proteinriegel wegen möglicher Kunststoffteile zurückgerufen</text>
+          </navLabel>
+          <content src="index.html#filepos25450"/>
+        </navPoint>
+        <navPoint id="num_26" playOrder="6">
+          <navLabel>
+            <text>Steuern: Ende der Steuerklassen III und V – was würde das bedeuten?</text>
+          </navLabel>
+          <content src="index.html#filepos26138"/>
+        </navPoint>
+        <navPoint id="num_27" playOrder="7">
+          <navLabel>
+            <text>Tonies ruft Kinderliederfigur mit Musik von Helene Fischer zurück</text>
+          </navLabel>
+          <content src="index.html#filepos26638"/>
+        </navPoint>
+        <navPoint id="num_28" playOrder="8">
+          <navLabel>
+            <text>Heizen mit Erdgas: Vielen Haushalten droht der Gaspreisschock – wie Sie jetzt reagieren sollten</text>
+          </navLabel>
+          <content src="index.html#filepos27568"/>
+        </navPoint>
+        <navPoint id="num_29" playOrder="9">
+          <navLabel>
+            <text>Heizöl: Was tun, wenn sich Ihr Tank im Keller leert?</text>
+          </navLabel>
+          <content src="index.html#filepos55415"/>
+        </navPoint>
+        <navPoint id="num_30" playOrder="10">
+          <navLabel>
+            <text>Deutschland: Zahl der Apotheken geht weiter zurück</text>
+          </navLabel>
+          <content src="index.html#filepos103621"/>
+        </navPoint>
+        <navPoint id="num_31" playOrder="11">
+          <navLabel>
+            <text>Friedrich Merz dringt auf pünktlichen Start des europäischen CO₂-Preises – mit Hintergedanken</text>
+          </navLabel>
+          <content src="index.html#filepos104402"/>
+        </navPoint>
+        <navPoint id="num_32" playOrder="12">
+          <navLabel>
+            <text>Immobilien: Mieten ziehen deutlich an, Lage spitzt sich laut Banken zu</text>
+          </navLabel>
+          <content src="index.html#filepos105326"/>
+        </navPoint>
+        <navPoint id="num_33" playOrder="13">
+          <navLabel>
+            <text>Gas: Betreiber von Speichern warnen vor Engpässen bei extremer Kälte</text>
+          </navLabel>
+          <content src="index.html#filepos106551"/>
+        </navPoint>
+        <navPoint id="num_34" playOrder="14">
+          <navLabel>
+            <text>Zigaretten: EU will Freimenge auf eine Stange begrenzen</text>
+          </navLabel>
+          <content src="index.html#filepos108239"/>
+        </navPoint>
+        <navPoint id="num_35" playOrder="15">
+          <navLabel>
+            <text>Online-Betrug: Jeder Neunte betroffen – ein Fall zeigt die neue Dimension</text>
+          </navLabel>
+          <content src="index.html#filepos109067"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_36" playOrder="4">
+        <navLabel>
+          <text>Wirtschaft Unternehmen und Märkte</text>
+        </navLabel>
+        <content src="index.html#filepos112692"/>
+        <navPoint id="num_37" playOrder="5">
+          <navLabel>
+            <text>Jensen Huang ist narzisstisch wie Trump, schreibt der Biograf des Ex-Nvidia-Bosses</text>
+          </navLabel>
+          <content src="index.html#filepos112692"/>
+        </navPoint>
+        <navPoint id="num_38" playOrder="6">
+          <navLabel>
+            <text>Teurer Güterverkehr: Haushaltsbeschlüsse belasten Bahnbranche und DB Cargo</text>
+          </navLabel>
+          <content src="index.html#filepos113402"/>
+        </navPoint>
+        <navPoint id="num_39" playOrder="7">
+          <navLabel>
+            <text>Mercedes-Benz: Vorstand stoppt Investitionen und prüft Werksschließungen in Deutschland</text>
+          </navLabel>
+          <content src="index.html#filepos113910"/>
+        </navPoint>
+        <navPoint id="num_40" playOrder="8">
+          <navLabel>
+            <text>Volkswagen-Krise: VW verdient offenbar nur noch zwölf Euro pro verkauftem Auto</text>
+          </navLabel>
+          <content src="index.html#filepos114431"/>
+        </navPoint>
+        <navPoint id="num_41" playOrder="9">
+          <navLabel>
+            <text>Nvidia – Jensen Huang: Colette Kress übernimmt vorerst Konzernspitze – wer ist sie?</text>
+          </navLabel>
+          <content src="index.html#filepos115572"/>
+        </navPoint>
+        <navPoint id="num_42" playOrder="10">
+          <navLabel>
+            <text>Bundesbank warnt vor wachsenden Risiken für Deutschlands Banken</text>
+          </navLabel>
+          <content src="index.html#filepos116088"/>
+        </navPoint>
+        <navPoint id="num_43" playOrder="11">
+          <navLabel>
+            <text>Deutsche Bank: Bafin verhängt Millionenstrafe wegen IT-Pannen bei Postbank-Kunden</text>
+          </navLabel>
+          <content src="index.html#filepos117017"/>
+        </navPoint>
+        <navPoint id="num_44" playOrder="12">
+          <navLabel>
+            <text>Lori Huang: Welche Rolle die Frau von Nvidia-Chef Jensen Huang im Unternehmen spielt</text>
+          </navLabel>
+          <content src="index.html#filepos117892"/>
+        </navPoint>
+        <navPoint id="num_45" playOrder="13">
+          <navLabel>
+            <text>Ahoi Steffen Henssler: Betreiber meldet für Ex-Henssler-Restaurants Insolvenz an</text>
+          </navLabel>
+          <content src="index.html#filepos118408"/>
+        </navPoint>
+        <navPoint id="num_46" playOrder="14">
+          <navLabel>
+            <text>Anthropic: KI-Firma peilt Billionenbewertung beim Börsengang an</text>
+          </navLabel>
+          <content src="index.html#filepos119468"/>
+        </navPoint>
+        <navPoint id="num_47" playOrder="15">
+          <navLabel>
+            <text>BMW lässt wegen fehlender Teile Schichten ausfallen</text>
+          </navLabel>
+          <content src="index.html#filepos120418"/>
+        </navPoint>
+        <navPoint id="num_48" playOrder="16">
+          <navLabel>
+            <text>Künstliche Intelligenz: Andrea Nahles rechnet mit Verlust von 800.000 Jobs</text>
+          </navLabel>
+          <content src="index.html#filepos121515"/>
+        </navPoint>
+        <navPoint id="num_49" playOrder="17">
+          <navLabel>
+            <text>Kalifornien : Wähler lehnen Milliardärssteuer ab</text>
+          </navLabel>
+          <content src="index.html#filepos122390"/>
+        </navPoint>
+        <navPoint id="num_50" playOrder="18">
+          <navLabel>
+            <text>Nvidia: Verfassungsschutz warnt deutsche Topmanager vor Honigfallen</text>
+          </navLabel>
+          <content src="index.html#filepos123030"/>
+        </navPoint>
+        <navPoint id="num_51" playOrder="19">
+          <navLabel>
+            <text>Nvidia-Aktien verlieren auch zum Handelsstart in New York deutlich</text>
+          </navLabel>
+          <content src="index.html#filepos123859"/>
+        </navPoint>
+        <navPoint id="num_52" playOrder="20">
+          <navLabel>
+            <text>Vodafone streicht jede fünfte Stelle in Deutschland und setzt vermehrt auf KI</text>
+          </navLabel>
+          <content src="index.html#filepos124572"/>
+        </navPoint>
+        <navPoint id="num_53" playOrder="21">
+          <navLabel>
+            <text>Nvidia: Aktie verliert nach Affären-Geständnis von Jensen Huang deutlich</text>
+          </navLabel>
+          <content src="index.html#filepos125650"/>
+        </navPoint>
+        <navPoint id="num_54" playOrder="22">
+          <navLabel>
+            <text>Commerzbank: UniCredit möchte ab 2027 neue Strategie umsetzen</text>
+          </navLabel>
+          <content src="index.html#filepos126274"/>
+        </navPoint>
+        <navPoint id="num_55" playOrder="23">
+          <navLabel>
+            <text>Argentinien: Javier Milei will Patagonien zum KI-Hotspot machen</text>
+          </navLabel>
+          <content src="index.html#filepos127193"/>
+        </navPoint>
+        <navPoint id="num_56" playOrder="24">
+          <navLabel>
+            <text>Nvidia: Jen-Hsun Huang soll Affäre mit chinesischer Agentin gehabt haben</text>
+          </navLabel>
+          <content src="index.html#filepos128836"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_57" playOrder="5">
+        <navLabel>
+          <text>Wirtschaft Staat und Soziales</text>
+        </navLabel>
+        <content src="index.html#filepos131522"/>
+        <navPoint id="num_58" playOrder="6">
+          <navLabel>
+            <text>Gasspeicher: Katherina Reiche plant Notfallgesetz und fossile Kraftwerksreserve</text>
+          </navLabel>
+          <content src="index.html#filepos131522"/>
+        </navPoint>
+        <navPoint id="num_59" playOrder="7">
+          <navLabel>
+            <text>LNG-Importe aus Russland: EU zahlte 2026 schon rund 8,7 Milliarden Euro</text>
+          </navLabel>
+          <content src="index.html#filepos132042"/>
+        </navPoint>
+        <navPoint id="num_60" playOrder="8">
+          <navLabel>
+            <text>Gas: Bundeskabinett beschließt strategische Gasreserve</text>
+          </navLabel>
+          <content src="index.html#filepos132545"/>
+        </navPoint>
+        <navPoint id="num_61" playOrder="9">
+          <navLabel>
+            <text>Wirtschaftsweise warnen vor explodierenden Rüstungsausgaben und Steuererhöhungen</text>
+          </navLabel>
+          <content src="index.html#filepos133032"/>
+        </navPoint>
+        <navPoint id="num_62" playOrder="10">
+          <navLabel>
+            <text>Maschinenbau-Gipfel: Katherina Reiche kritisiert eigene Regierung</text>
+          </navLabel>
+          <content src="index.html#filepos133546"/>
+        </navPoint>
+        <navPoint id="num_63" playOrder="11">
+          <navLabel>
+            <text>Bundeshaushalt 2027: Union will Gegenfinanzierung für Stromsteuersenkung gefunden haben</text>
+          </navLabel>
+          <content src="index.html#filepos134043"/>
+        </navPoint>
+        <navPoint id="num_64" playOrder="12">
+          <navLabel>
+            <text>Kindergeld-Debatte: Unionspolitiker wollen Bezug im EU-Ausland erschweren</text>
+          </navLabel>
+          <content src="index.html#filepos134563"/>
+        </navPoint>
+        <navPoint id="num_65" playOrder="13">
+          <navLabel>
+            <text>Bundesregierung meldet milliardenschwere Mehrausgaben für den Haushalt 2027</text>
+          </navLabel>
+          <content src="index.html#filepos135904"/>
+        </navPoint>
+        <navPoint id="num_66" playOrder="14">
+          <navLabel>
+            <text>Lars Klingbeil stopft Haushaltslücken mit Milliarden aus Bundesimmobilienanstalt</text>
+          </navLabel>
+          <content src="index.html#filepos136412"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_67" playOrder="6">
+        <navLabel>
+          <text>Panorama Justiz</text>
+        </navLabel>
+        <content src="index.html#filepos140057"/>
+        <navPoint id="num_68" playOrder="7">
+          <navLabel>
+            <text>Gérard Depardieu zieht Berufung im Prozess um sexuelle Übergriffe zurück</text>
+          </navLabel>
+          <content src="index.html#filepos140057"/>
+        </navPoint>
+        <navPoint id="num_69" playOrder="8">
+          <navLabel>
+            <text>Stade: Zwei Frauen nach Bluttat wegen Beihilfe zu Mord angeklagt</text>
+          </navLabel>
+          <content src="index.html#filepos140907"/>
+        </navPoint>
+        <navPoint id="num_70" playOrder="9">
+          <navLabel>
+            <text>Julian Reichelt: Auto von »Nius«-Chefredakteur in Berlin angezündet</text>
+          </navLabel>
+          <content src="index.html#filepos142197"/>
+        </navPoint>
+        <navPoint id="num_71" playOrder="10">
+          <navLabel>
+            <text>Hamburg: Polizei fasst zwei junge Männer nach Serie von Juweliereinbrüchen</text>
+          </navLabel>
+          <content src="index.html#filepos142816"/>
+        </navPoint>
+        <navPoint id="num_72" playOrder="11">
+          <navLabel>
+            <text>»Königreich Deutschland«: Prozess gegen Fantasiekönig Peter Fitzek beginnt - SPIEGEL TV</text>
+          </navLabel>
+          <content src="index.html#filepos143598"/>
+        </navPoint>
+        <navPoint id="num_73" playOrder="12">
+          <navLabel>
+            <text>Washington, D.C.: Tote und Verletzte nach Schüssen</text>
+          </navLabel>
+          <content src="index.html#filepos143880"/>
+        </navPoint>
+        <navPoint id="num_74" playOrder="13">
+          <navLabel>
+            <text>Mallorca: Von deutschen Behörden gesuchtes Paar auf Insel gefasst</text>
+          </navLabel>
+          <content src="index.html#filepos144599"/>
+        </navPoint>
+        <navPoint id="num_75" playOrder="14">
+          <navLabel>
+            <text>Coswig: Mehrere Kinder sollen Muffins mit Batterien gegessen haben</text>
+          </navLabel>
+          <content src="index.html#filepos145235"/>
+        </navPoint>
+        <navPoint id="num_76" playOrder="15">
+          <navLabel>
+            <text>Italien: Erneute Bombendrohungen gegen Hunderte Schulen</text>
+          </navLabel>
+          <content src="index.html#filepos145776"/>
+        </navPoint>
+        <navPoint id="num_77" playOrder="16">
+          <navLabel>
+            <text>Rostock: Fall Fabian – Verteidigung von Gina H. legt Revision ein</text>
+          </navLabel>
+          <content src="index.html#filepos146461"/>
+        </navPoint>
+        <navPoint id="num_78" playOrder="17">
+          <navLabel>
+            <text>Mannheim: Schüsse in Innenstadt – ein Toter</text>
+          </navLabel>
+          <content src="index.html#filepos147050"/>
+        </navPoint>
+        <navPoint id="num_79" playOrder="18">
+          <navLabel>
+            <text>Ronnenberg: Unbekannter fährt mit Auto in Menschengruppe und verletzt drei Menschen</text>
+          </navLabel>
+          <content src="index.html#filepos147707"/>
+        </navPoint>
+        <navPoint id="num_80" playOrder="19">
+          <navLabel>
+            <text>Großensee: Tote und Schwerverletzte nach Hundeattacke – Tier war Behörden bekannt</text>
+          </navLabel>
+          <content src="index.html#filepos148659"/>
+        </navPoint>
+        <navPoint id="num_81" playOrder="20">
+          <navLabel>
+            <text>Ellwangen: Eltern missbrauchten Tochter – lange Haftstrafen für Ehepaar</text>
+          </navLabel>
+          <content src="index.html#filepos149786"/>
+        </navPoint>
+        <navPoint id="num_82" playOrder="21">
+          <navLabel>
+            <text>Hamburg und Eningen: Mutmaßlicher Schütze stand wegen Betrugs vor Gericht</text>
+          </navLabel>
+          <content src="index.html#filepos150821"/>
+        </navPoint>
+        <navPoint id="num_83" playOrder="22">
+          <navLabel>
+            <text>»Kollektiv Zwickau«: Razzien gegen mutmaßliche Linksextremisten in mehreren ostdeutschen Städten</text>
+          </navLabel>
+          <content src="index.html#filepos151497"/>
+        </navPoint>
+        <navPoint id="num_84" playOrder="23">
+          <navLabel>
+            <text>Lisa T. aus Berlin: Warum konnten Ermittler den mutmaßlichen Mörder nicht stoppen?</text>
+          </navLabel>
+          <content src="index.html#filepos152149"/>
+        </navPoint>
+        <navPoint id="num_85" playOrder="24">
+          <navLabel>
+            <text>Berlin-Marzahn: Mutmaßlicher Täter im Fall Lisa T. ist an seinen Verletzungen gestorben</text>
+          </navLabel>
+          <content src="index.html#filepos152665"/>
+        </navPoint>
+        <navPoint id="num_86" playOrder="25">
+          <navLabel>
+            <text>Gina H. im Mordfall Fabian verurteilt: Nach dem Urteil applaudieren die Zuschauer im Saal</text>
+          </navLabel>
+          <content src="index.html#filepos153365"/>
+        </navPoint>
+        <navPoint id="num_87" playOrder="26">
+          <navLabel>
+            <text>Berlin: Verdächtiger im Fall Lisa T. aus Marzahn war bereits vorbestraft</text>
+          </navLabel>
+          <content src="index.html#filepos153886"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_88" playOrder="7">
+        <navLabel>
+          <text>Panorama Gesellschaft</text>
+        </navLabel>
+        <content src="index.html#filepos156447"/>
+        <navPoint id="num_89" playOrder="8">
+          <navLabel>
+            <text>Klimawandel in Deutschland: Hitzeaktionspläne - was Kommunen jetzt ändern</text>
+          </navLabel>
+          <content src="index.html#filepos156447"/>
+        </navPoint>
+        <navPoint id="num_90" playOrder="9">
+          <navLabel>
+            <text>Umgang mit dem Tod: Teilnehmerin eines Sargbau-Seminars berichtet</text>
+          </navLabel>
+          <content src="index.html#filepos156963"/>
+        </navPoint>
+        <navPoint id="num_91" playOrder="10">
+          <navLabel>
+            <text>Kita: Türkisch klingender Nachname erschwert offenbar die Suche</text>
+          </navLabel>
+          <content src="index.html#filepos157460"/>
+        </navPoint>
+        <navPoint id="num_92" playOrder="11">
+          <navLabel>
+            <text>Autoritarismus-Studie: So sehr bröckelt die Überzeugung, Demokratie sei eine gute Idee</text>
+          </navLabel>
+          <content src="index.html#filepos158335"/>
+        </navPoint>
+        <navPoint id="num_93" playOrder="12">
+          <navLabel>
+            <text>Integrationsbericht: Natalie Pawlik spricht über Integration in Deutschland</text>
+          </navLabel>
+          <content src="index.html#filepos158855"/>
+        </navPoint>
+        <navPoint id="num_94" playOrder="13">
+          <navLabel>
+            <text>Integrationsbericht: Wie gut funktioniert Integration in Deutschland?</text>
+          </navLabel>
+          <content src="index.html#filepos159363"/>
+        </navPoint>
+        <navPoint id="num_95" playOrder="14">
+          <navLabel>
+            <text>Papst Leo in Argentinien: Zweieinhalb Millionen bei Messe in Buenos Aires</text>
+          </navLabel>
+          <content src="index.html#filepos159864"/>
+        </navPoint>
+        <navPoint id="num_96" playOrder="15">
+          <navLabel>
+            <text>Kirche: Pfarrer Christian Schäfer kellnert im Kasseler Café</text>
+          </navLabel>
+          <content src="index.html#filepos160822"/>
+        </navPoint>
+        <navPoint id="num_97" playOrder="16">
+          <navLabel>
+            <text>Kanada: Deutscher verkauft Haribo-Insel in Kanada - »Dann kam auf einmal Thomas Gottschalk mit einem Quad angesaust«</text>
+          </navLabel>
+          <content src="index.html#filepos161315"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_98" playOrder="8">
+        <navLabel>
+          <text>Panorama Leute</text>
+        </navLabel>
+        <content src="index.html#filepos163965"/>
+        <navPoint id="num_99" playOrder="9">
+          <navLabel>
+            <text>Ethan Hawke: Kinder sind seine »größte Energiequelle«</text>
+          </navLabel>
+          <content src="index.html#filepos163965"/>
+        </navPoint>
+        <navPoint id="num_100" playOrder="10">
+          <navLabel>
+            <text>Johannes B. Kerner: Fernsehmoderator würde gern den Papst interviewen</text>
+          </navLabel>
+          <content src="index.html#filepos164716"/>
+        </navPoint>
+        <navPoint id="num_101" playOrder="11">
+          <navLabel>
+            <text>Barbara Schöneberger: TV-Moderatorin muss Führerschein abgeben</text>
+          </navLabel>
+          <content src="index.html#filepos165254"/>
+        </navPoint>
+        <navPoint id="num_102" playOrder="12">
+          <navLabel>
+            <text>Jude Bellingham: Real-Madrid-Star ist in allem außer Fußball »nicht so toll«</text>
+          </navLabel>
+          <content src="index.html#filepos165993"/>
+        </navPoint>
+        <navPoint id="num_103" playOrder="13">
+          <navLabel>
+            <text>Prinz George: Magazin veröffentlicht Vogelzeichnung des künftigen Thronfolgers</text>
+          </navLabel>
+          <content src="index.html#filepos166955"/>
+        </navPoint>
+        <navPoint id="num_104" playOrder="14">
+          <navLabel>
+            <text>Florence Pugh lässt sich am Set nichts mehr gefallen: »Sei pünktlich, nicht unhöflich, nicht misogyn«</text>
+          </navLabel>
+          <content src="index.html#filepos167926"/>
+        </navPoint>
+        <navPoint id="num_105" playOrder="15">
+          <navLabel>
+            <text>Robbie Williams verteidigt Olivia Rodrigo gegen Plagiatsvorwürfe bei Weihnachtslied</text>
+          </navLabel>
+          <content src="index.html#filepos169148"/>
+        </navPoint>
+        <navPoint id="num_106" playOrder="16">
+          <navLabel>
+            <text>Jörg Thadeusz präsentiert sein Ilse-Aigner-Tattoo</text>
+          </navLabel>
+          <content src="index.html#filepos169949"/>
+        </navPoint>
+        <navPoint id="num_107" playOrder="17">
+          <navLabel>
+            <text>Michael Bloomberg und Diana Taylor haben geheiratet – nach 26 Jahren</text>
+          </navLabel>
+          <content src="index.html#filepos171021"/>
+        </navPoint>
+        <navPoint id="num_108" playOrder="18">
+          <navLabel>
+            <text>Kim Kardashian: Kunden schimpfen über 148-Dollar-Adventskalender von Skims</text>
+          </navLabel>
+          <content src="index.html#filepos171830"/>
+        </navPoint>
+        <navPoint id="num_109" playOrder="19">
+          <navLabel>
+            <text>Thomas Markle Jr.: Polizei auf den Philippinen entschuldigt sich bei Halbbruder von Herzogin Meghan</text>
+          </navLabel>
+          <content src="index.html#filepos172766"/>
+        </navPoint>
+        <navPoint id="num_110" playOrder="20">
+          <navLabel>
+            <text>Adam Driver erteilt »Girls«-Revival und »Star Wars« Absage</text>
+          </navLabel>
+          <content src="index.html#filepos173932"/>
+        </navPoint>
+        <navPoint id="num_111" playOrder="21">
+          <navLabel>
+            <text>Keira Knightley hasst Sprachnachrichten: »Sie sollten sterben«</text>
+          </navLabel>
+          <content src="index.html#filepos174998"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_112" playOrder="9">
+        <navLabel>
+          <text>Sport alles</text>
+        </navLabel>
+        <content src="index.html#filepos179187"/>
+        <navPoint id="num_113" playOrder="10">
+          <navLabel>
+            <text>Nations League: Deutschland gewinnt in Serbien – Brajan Gruda trifft bei Debüt</text>
+          </navLabel>
+          <content src="index.html#filepos179187"/>
+        </navPoint>
+        <navPoint id="num_114" playOrder="11">
+          <navLabel>
+            <text>DFB-Einzelkritik gegen Serbien: Brajan Gruda beeindruckt beim Debüt, Florian Wirtz erfüllt die Führungsrolle</text>
+          </navLabel>
+          <content src="index.html#filepos179707"/>
+        </navPoint>
+        <navPoint id="num_115" playOrder="12">
+          <navLabel>
+            <text>Nations League: Drei Erkenntnisse zu Deutschlands Sieg in Serbien</text>
+          </navLabel>
+          <content src="index.html#filepos180250"/>
+        </navPoint>
+        <navPoint id="num_116" playOrder="13">
+          <navLabel>
+            <text>Jesús de Miguel: Zwölf Spiele Sperre für Torwart Owono nach Todesfall in Spanien</text>
+          </navLabel>
+          <content src="index.html#filepos180747"/>
+        </navPoint>
+        <navPoint id="num_117" playOrder="14">
+          <navLabel>
+            <text>Norwegen, Schweden und Estland sperren russische Sportler aus</text>
+          </navLabel>
+          <content src="index.html#filepos182027"/>
+        </navPoint>
+        <navPoint id="num_118" playOrder="15">
+          <navLabel>
+            <text>DFB-Auswahl in der Nations League: Wie Jürgen Klopp die Nationalelf neu erfinden will</text>
+          </navLabel>
+          <content src="index.html#filepos183315"/>
+        </navPoint>
+        <navPoint id="num_119" playOrder="16">
+          <navLabel>
+            <text>Rheinmetall: Borussia Dortmund beendet umstrittene Partnerschaft</text>
+          </navLabel>
+          <content src="index.html#filepos183833"/>
+        </navPoint>
+        <navPoint id="num_120" playOrder="17">
+          <navLabel>
+            <text>Nations League: Italien revanchiert sich gegen Frankreich – Doué verliert Zahn</text>
+          </navLabel>
+          <content src="index.html#filepos184385"/>
+        </navPoint>
+        <navPoint id="num_121" playOrder="18">
+          <navLabel>
+            <text>NFL: Jameis Winston von den New York Giants scheitert mit »Who let the dogs out«-Trick</text>
+          </navLabel>
+          <content src="index.html#filepos185058"/>
+        </navPoint>
+        <navPoint id="num_122" playOrder="19">
+          <navLabel>
+            <text>Carlos Babington ist tot: Ein WM-Star in Wattenscheid</text>
+          </navLabel>
+          <content src="index.html#filepos185831"/>
+        </navPoint>
+        <navPoint id="num_123" playOrder="20">
+          <navLabel>
+            <text>Jesús de Miguel: Familie von totem Fußballer erhält Spende – Rückkehr von Torwart Owono offen</text>
+          </navLabel>
+          <content src="index.html#filepos186316"/>
+        </navPoint>
+        <navPoint id="num_124" playOrder="21">
+          <navLabel>
+            <text>Donald Trump: Ein historischer, öffentlicher Golfplatz, Trumps radikale Umbaupläne und ein Streit, der in Morddrohungen mündet</text>
+          </navLabel>
+          <content src="index.html#filepos187029"/>
+        </navPoint>
+        <navPoint id="num_125" playOrder="22">
+          <navLabel>
+            <text>DFB: Felix Nmecha will auf Kronenjubel verzichten, sagt Jürgen Klopp</text>
+          </navLabel>
+          <content src="index.html#filepos187590"/>
+        </navPoint>
+        <navPoint id="num_126" playOrder="23">
+          <navLabel>
+            <text>Zinédine Zidane, sein Kopfstoß und das WM-Finale 2006: Wie Materazzi weiter austeilt</text>
+          </navLabel>
+          <content src="index.html#filepos188268"/>
+        </navPoint>
+        <navPoint id="num_127" playOrder="24">
+          <navLabel>
+            <text>Felix Nmecha: Watzke fordert Verzicht auf umstrittenen Kronenjubel</text>
+          </navLabel>
+          <content src="index.html#filepos189234"/>
+        </navPoint>
+        <navPoint id="num_128" playOrder="25">
+          <navLabel>
+            <text>Apnoe-Taucherin Kateryna Sadurska stellt Weltrekord über 90 Meter auf</text>
+          </navLabel>
+          <content src="index.html#filepos190069"/>
+        </navPoint>
+        <navPoint id="num_129" playOrder="26">
+          <navLabel>
+            <text>Fußball: Manchester United trennt sich von Michael Carrick – Gerücht um Pep Guardiola als US-Coach</text>
+          </navLabel>
+          <content src="index.html#filepos191231"/>
+        </navPoint>
+        <navPoint id="num_130" playOrder="27">
+          <navLabel>
+            <text>DFB: »Ballers in God« teilten Jürgen-Klopp-Video ohne Zustimmung</text>
+          </navLabel>
+          <content src="index.html#filepos192566"/>
+        </navPoint>
+        <navPoint id="num_131" playOrder="28">
+          <navLabel>
+            <text>Eishockey: Kanada verweigert russischem Team Visa für U20-WM</text>
+          </navLabel>
+          <content src="index.html#filepos193742"/>
+        </navPoint>
+        <navPoint id="num_132" playOrder="29">
+          <navLabel>
+            <text>DFB-Team: Wie Philipp Treu und Derry Scherhant die Herausforderungen des DFB zeigen</text>
+          </navLabel>
+          <content src="index.html#filepos194966"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_133" playOrder="10">
+        <navLabel>
+          <text>Kultur Kino</text>
+        </navLabel>
+        <content src="index.html#filepos197318"/>
+        <navPoint id="num_134" playOrder="11">
+          <navLabel>
+            <text>»Star Wars«: 2027 kehrt der erste Film zurück in die Kinos</text>
+          </navLabel>
+          <content src="index.html#filepos197318"/>
+        </navPoint>
+        <navPoint id="num_135" playOrder="12">
+          <navLabel>
+            <text>Robert Pattinson will jetzt offenbar James Bond spielen. Kann er 007?</text>
+          </navLabel>
+          <content src="index.html#filepos199062"/>
+        </navPoint>
+        <navPoint id="num_136" playOrder="13">
+          <navLabel>
+            <text>»Inglourious Basterds«: Wie Quentin Tarantino gleich zwei Schauspielerinnen feuerte</text>
+          </navLabel>
+          <content src="index.html#filepos199563"/>
+        </navPoint>
+        <navPoint id="num_137" playOrder="14">
+          <navLabel>
+            <text>Scarlett Johansson: Hollywood-Star kritisiert fragwürdige Rollenangebote</text>
+          </navLabel>
+          <content src="index.html#filepos200296"/>
+        </navPoint>
+        <navPoint id="num_138" playOrder="15">
+          <navLabel>
+            <text>Nicolas Winding Refn: »Als ich meine Diagnose bekam, dachte ich, dass ich sterben würde«</text>
+          </navLabel>
+          <content src="index.html#filepos201327"/>
+        </navPoint>
+        <navPoint id="num_139" playOrder="16">
+          <navLabel>
+            <text>»Ebenezer«: Er war ein Paria, jetzt spielt Johnny Depp wieder eine Hauptrolle. Ist nun alles vergeben?</text>
+          </navLabel>
+          <content src="index.html#filepos201848"/>
+        </navPoint>
+        <navPoint id="num_140" playOrder="17">
+          <navLabel>
+            <text>Stacy Keach: US-Schauspieler und »Mike Hammer«-Darsteller ist tot</text>
+          </navLabel>
+          <content src="index.html#filepos202382"/>
+        </navPoint>
+        <navPoint id="num_141" playOrder="18">
+          <navLabel>
+            <text>Bill Skarsgård durfte für James Bond nicht mal vorsprechen</text>
+          </navLabel>
+          <content src="index.html#filepos203610"/>
+        </navPoint>
+        <navPoint id="num_142" playOrder="19">
+          <navLabel>
+            <text>Andy Serkis: »Der Herr der Ringe«-Schauspieler träumt bis heute noch von Gollum</text>
+          </navLabel>
+          <content src="index.html#filepos204715"/>
+        </navPoint>
+        <navPoint id="num_143" playOrder="20">
+          <navLabel>
+            <text>James Bond: Robert Pattinson soll an 007-Probeaufnahmen teilgenommen haben</text>
+          </navLabel>
+          <content src="index.html#filepos205770"/>
+        </navPoint>
+        <navPoint id="num_144" playOrder="21">
+          <navLabel>
+            <text>»Minotaurus« von Andrej Swjaginzew: Bilder aus den Tiefen der russischen Seele</text>
+          </navLabel>
+          <content src="index.html#filepos206736"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_145" playOrder="11">
+        <navLabel>
+          <text>Kultur Musik</text>
+        </navLabel>
+        <content src="index.html#filepos208637"/>
+        <navPoint id="num_146" playOrder="12">
+          <navLabel>
+            <text>U2: Das vielleicht beste Rockalbum des Jahres kommt aus Irland. Aber von welcher Band?</text>
+          </navLabel>
+          <content src="index.html#filepos208637"/>
+        </navPoint>
+        <navPoint id="num_147" playOrder="13">
+          <navLabel>
+            <text>Bono und The Edge über 50 Jahre U2, Erfolg und Lieblingssongs</text>
+          </navLabel>
+          <content src="index.html#filepos209164"/>
+        </navPoint>
+        <navPoint id="num_148" playOrder="14">
+          <navLabel>
+            <text>Kitschkrieg: »Gut genug«-Produzenten kritisieren 1Live scharf – Sender wehrt sich</text>
+          </navLabel>
+          <content src="index.html#filepos209658"/>
+        </navPoint>
+        <navPoint id="num_149" playOrder="15">
+          <navLabel>
+            <text>Usher und Chris Brown: US-Musiker sollen sich backstage gezofft haben</text>
+          </navLabel>
+          <content src="index.html#filepos210791"/>
+        </navPoint>
+        <navPoint id="num_150" playOrder="16">
+          <navLabel>
+            <text>Paul McCartney ist laut Forbes der drittreichste Musiker der Welt</text>
+          </navLabel>
+          <content src="index.html#filepos211529"/>
+        </navPoint>
+        <navPoint id="num_151" playOrder="17">
+          <navLabel>
+            <text>John Coltrane: Wie Joe Lovano und Melissa Aldana in der Elbphilharmonie dem Übervater des Jazz huldigen</text>
+          </navLabel>
+          <content src="index.html#filepos212539"/>
+        </navPoint>
+        <navPoint id="num_152" playOrder="18">
+          <navLabel>
+            <text>Justin Timberlake stellt Hintergrund von »What Goes Around … Comes Around« klar</text>
+          </navLabel>
+          <content src="index.html#filepos213075"/>
+        </navPoint>
+        <navPoint id="num_153" playOrder="19">
+          <navLabel>
+            <text>La Roux, erneutes Comeback mit »Old Flames«: Leider fieberfrei</text>
+          </navLabel>
+          <content src="index.html#filepos214226"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_154" playOrder="12">
+        <navLabel>
+          <text>Kultur TV</text>
+        </navLabel>
+        <content src="index.html#filepos215835"/>
+        <navPoint id="num_155" playOrder="13">
+          <navLabel>
+            <text>Irmelin Krause ist tot: Schauspielerin aus »Ferienheim Bergkristall« mit 88 Jahren gestorben</text>
+          </navLabel>
+          <content src="index.html#filepos215835"/>
+        </navPoint>
+        <navPoint id="num_156" playOrder="14">
+          <navLabel>
+            <text>»Harry Potter«-Serie: Der neue Snape Paapa Essiedu hat die Filme nicht gesehen</text>
+          </navLabel>
+          <content src="index.html#filepos216529"/>
+        </navPoint>
+        <navPoint id="num_157" playOrder="15">
+          <navLabel>
+            <text>»Ronzheimer – Der Bürger-Talk«: Paul Ronzheimer bekommt politische Talkshow bei Sat.1</text>
+          </navLabel>
+          <content src="index.html#filepos217520"/>
+        </navPoint>
+        <navPoint id="num_158" playOrder="16">
+          <navLabel>
+            <text>»Tatort«-Vote: Wie gefiel Ihnen »Frei wie ein Adler« aus Zürich?</text>
+          </navLabel>
+          <content src="index.html#filepos218410"/>
+        </navPoint>
+        <navPoint id="num_159" playOrder="17">
+          <navLabel>
+            <text>Sylvie Meis über Serie »Friesenjunkies«: »Dass es eine heftige Rolle ist, wusste ich«</text>
+          </navLabel>
+          <content src="index.html#filepos219143"/>
+        </navPoint>
+        <navPoint id="num_160" playOrder="18">
+          <navLabel>
+            <text>»Tatort« heute aus Zürich: »Frei wie ein Adler« im Schnellcheck</text>
+          </navLabel>
+          <content src="index.html#filepos220284"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_161" playOrder="13">
+        <navLabel>
+          <text>Kultur Literatur</text>
+        </navLabel>
+        <content src="index.html#filepos221370"/>
+        <navPoint id="num_162" playOrder="14">
+          <navLabel>
+            <text>Thélyson Orélien: Rowohlt nimmt wegen KI-Vorwürfen Abstand</text>
+          </navLabel>
+          <content src="index.html#filepos221370"/>
+        </navPoint>
+        <navPoint id="num_163" playOrder="15">
+          <navLabel>
+            <text>Booker-Prize 2026: M. John Harrison gewinnt mit »The End of Everything«</text>
+          </navLabel>
+          <content src="index.html#filepos222762"/>
+        </navPoint>
+        <navPoint id="num_164" playOrder="16">
+          <navLabel>
+            <text>Cartoons der Woche: Bleibt noch eine Lösung</text>
+          </navLabel>
+          <content src="index.html#filepos223692"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_165" playOrder="14">
+        <navLabel>
+          <text>Netzwelt Politk</text>
+        </navLabel>
+        <content src="index.html#filepos224412"/>
+        <navPoint id="num_166" playOrder="15">
+          <navLabel>
+            <text>Frankreich beschuldigt Iran nach Angriffen auf Kühlanlagen in Supermärkten</text>
+          </navLabel>
+          <content src="index.html#filepos224412"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_167" playOrder="15">
+        <navLabel>
+          <text>Netzwelt TheWeb</text>
+        </navLabel>
+        <content src="index.html#filepos226132"/>
+        <navPoint id="num_168" playOrder="16">
+          <navLabel>
+            <text>Microsoft-Störung: Darf man freimachen, wenn die Software streikt?</text>
+          </navLabel>
+          <content src="index.html#filepos226132"/>
+        </navPoint>
+        <navPoint id="num_169" playOrder="17">
+          <navLabel>
+            <text>Microsoft: Fehlersuche nach globaler Störung von Onlinediensten läuft</text>
+          </navLabel>
+          <content src="index.html#filepos226640"/>
+        </navPoint>
+        <navPoint id="num_170" playOrder="18">
+          <navLabel>
+            <text>Australien: Halten Sie sich fest, die finnische Botschaft hat zu</text>
+          </navLabel>
+          <content src="index.html#filepos227795"/>
+        </navPoint>
+        <navPoint id="num_171" playOrder="19">
+          <navLabel>
+            <text>Donald Trump bietet UFC-Chef Dana White Job als Sprecher an - eine Verwechslung?</text>
+          </navLabel>
+          <content src="index.html#filepos228291"/>
+        </navPoint>
+        <navPoint id="num_172" playOrder="20">
+          <navLabel>
+            <text>Quiz: Wer hat es gesagt – KI-Boss oder Kinobösewicht?</text>
+          </navLabel>
+          <content src="index.html#filepos228803"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_173" playOrder="16">
+        <navLabel>
+          <text>Netzwelt Games</text>
+        </navLabel>
+        <content src="index.html#filepos229778"/>
+        <navPoint id="num_174" playOrder="17">
+          <navLabel>
+            <text>GTA 6: Nach 13 Jahren Wartezeit steht das Kultspiel nun im Laden</text>
+          </navLabel>
+          <content src="index.html#filepos229778"/>
+        </navPoint>
+        <navPoint id="num_175" playOrder="18">
+          <navLabel>
+            <text>»GTA 6«: Preload, Preise, Deutschland-Startzeit – was Sie zum Release wissen sollten</text>
+          </navLabel>
+          <content src="index.html#filepos230283"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_176" playOrder="17">
+        <navLabel>
+          <text>Wissenschaft Mensch</text>
+        </navLabel>
+        <content src="index.html#filepos231843"/>
+        <navPoint id="num_177" playOrder="18">
+          <navLabel>
+            <text>Weltklimakonferenz in der Türkei: Was bei der COP zählt – und was nicht</text>
+          </navLabel>
+          <content src="index.html#filepos231843"/>
+        </navPoint>
+        <navPoint id="num_178" playOrder="19">
+          <navLabel>
+            <text>Schwächt die Grippeimpfung das Immunsystem?</text>
+          </navLabel>
+          <content src="index.html#filepos238534"/>
+        </navPoint>
+        <navPoint id="num_179" playOrder="20">
+          <navLabel>
+            <text>Depressionen: Welche Antidepressiva in Langzeitbehandlungen besonders wirksam sind</text>
+          </navLabel>
+          <content src="index.html#filepos239010"/>
+        </navPoint>
+        <navPoint id="num_180" playOrder="21">
+          <navLabel>
+            <text>Rheinland-Pfalz: Landesarchäologe bleibt nach Schwindelvorwürfen vom Dienst enthoben</text>
+          </navLabel>
+          <content src="index.html#filepos240020"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_181" playOrder="18">
+        <navLabel>
+          <text>Wissenschaft Natur</text>
+        </navLabel>
+        <content src="index.html#filepos241824"/>
+        <navPoint id="num_182" playOrder="19">
+          <navLabel>
+            <text>Naturschutz: Warum Wissenschaftler auf die Schönheit der Insekten setzen</text>
+          </navLabel>
+          <content src="index.html#filepos241824"/>
+        </navPoint>
+        <navPoint id="num_183" playOrder="20">
+          <navLabel>
+            <text>Katzen: Ihre Katze versucht mit Ihnen zu sprechen, das können Sie sogar selbst testen</text>
+          </navLabel>
+          <content src="index.html#filepos242338"/>
+        </navPoint>
+        <navPoint id="num_184" playOrder="21">
+          <navLabel>
+            <text>Rembrandt: Bakterien aus Zuckerraffinerie auf Gemälde »Nachtwache« gefunden</text>
+          </navLabel>
+          <content src="index.html#filepos243211"/>
+        </navPoint>
+        <navPoint id="num_185" playOrder="22">
+          <navLabel>
+            <text>Bikar und Bokak: Ein Naturparadies im Pazifik zeigt, was andere Orte verloren haben</text>
+          </navLabel>
+          <content src="index.html#filepos243943"/>
+        </navPoint>
+        <navPoint id="num_186" playOrder="23">
+          <navLabel>
+            <text>Weltklimakonferenz: Friedrich Merz fährt nicht zur COP nach Antalya, viele Staatschefs fehlen auch</text>
+          </navLabel>
+          <content src="index.html#filepos244763"/>
+        </navPoint>
+        <navPoint id="num_187" playOrder="24">
+          <navLabel>
+            <text>Erderwärmung: 1,5-Grad-Schwelle wird wohl 2029 gerissen</text>
+          </navLabel>
+          <content src="index.html#filepos247108"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_188" playOrder="19">
+        <navLabel>
+          <text>Wissenschaft Technik</text>
+        </navLabel>
+        <content src="index.html#filepos248740"/>
+        <navPoint id="num_189" playOrder="20">
+          <navLabel>
+            <text>Flug zum Mars: Wie neue Fitnessgeräte für Astronauten aussehen</text>
+          </navLabel>
+          <content src="index.html#filepos248740"/>
+        </navPoint>
+        <navPoint id="num_190" playOrder="21">
+          <navLabel>
+            <text>Dark Eagle: Hyperschallwaffe der USA ist immer noch nicht voll einsatzbereit</text>
+          </navLabel>
+          <content src="index.html#filepos249245"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_191" playOrder="20">
+        <navLabel>
+          <text>Wissenschaft Weltall</text>
+        </navLabel>
+        <content src="index.html#filepos250117"/>
+        <navPoint id="num_192" playOrder="21">
+          <navLabel>
+            <text>Laser-Satellitenkommunikation: Bei dieser Weltraumtechnologie ist Deutschland weit vorn - noch</text>
+          </navLabel>
+          <content src="index.html#filepos250117"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_193" playOrder="21">
+        <navLabel>
+          <text>Wissenschaft Medizin</text>
+        </navLabel>
+        <content src="index.html#filepos251115"/>
+        <navPoint id="num_194" playOrder="22">
+          <navLabel>
+            <text>Herzgesundheit: Neues Medikament enttäuscht Forscher in Studie</text>
+          </navLabel>
+          <content src="index.html#filepos251115"/>
+        </navPoint>
+        <navPoint id="num_195" playOrder="23">
+          <navLabel>
+            <text>Ebola: Letzter Ebolapatient in Kenia aus Klinik entlassen</text>
+          </navLabel>
+          <content src="index.html#filepos252001"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_196" playOrder="22">
+        <navLabel>
+          <text>Gesundheit Diagnose und Therapie</text>
+        </navLabel>
+        <content src="index.html#filepos253377"/>
+        <navPoint id="num_197" playOrder="23">
+          <navLabel>
+            <text>Blutzucker: Was ist ein Prädiabetes – und was kann man dagegen tun?</text>
+          </navLabel>
+          <content src="index.html#filepos253377"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_198" playOrder="23">
+        <navLabel>
+          <text>Gesundheit Schwangerschaft und Kind</text>
+        </navLabel>
+        <content src="index.html#filepos293579"/>
+        <navPoint id="num_199" playOrder="24">
+          <navLabel>
+            <text>ADHS und Hochbegabung: Wie man betroffene Kinder unterstützt</text>
+          </navLabel>
+          <content src="index.html#filepos293579"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_200" playOrder="24">
+        <navLabel>
+          <text>Reise Städte</text>
+        </navLabel>
+        <content src="index.html#filepos322256"/>
+        <navPoint id="num_201" playOrder="25">
+          <navLabel>
+            <text>Miniatur Wunderland: Südamerika-Abschnitt mit Amazonas, Atacama und Anden eröffnet</text>
+          </navLabel>
+          <content src="index.html#filepos322256"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_202" playOrder="25">
+        <navLabel>
+          <text>Reise Europa</text>
+        </navLabel>
+        <content src="index.html#filepos323113"/>
+        <navPoint id="num_203" playOrder="26">
+          <navLabel>
+            <text>Mit dem Zug durch Skandinavien: Die schönsten Strecken zum Nachreisen</text>
+          </navLabel>
+          <content src="index.html#filepos323113"/>
+        </navPoint>
+      </navPoint>
+      <navPoint id="num_204" playOrder="26">
+        <navLabel>
+          <text>Reise Fernweh</text>
+        </navLabel>
+        <content src="index.html#filepos350957"/>
+        <navPoint id="num_205" playOrder="27">
+          <navLabel>
+            <text>Extrembergsteigerin Tamara Lunger in der Mongolei: »Jeder Tag war ein neues Abenteuer«</text>
+          </navLabel>
+          <content src="index.html#filepos350957"/>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>

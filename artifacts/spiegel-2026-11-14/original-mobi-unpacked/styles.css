@@ -1,0 +1,38 @@
+
+body { text-align: justify }
+
+blockquote { margin: 0em 0em 0em 2em; }
+
+p { margin: 0em; text-indent: 1.5em }
+
+.bold { font-weight: bold }
+
+.italic { font-style: italic }
+
+.underline { text-decoration: underline }
+
+.mbp_pagebreak {
+    page-break-after: always; margin: 0; display: block
+}
+
+
+.calibre_9 { height: 1em }
+
+.calibre_140 { margin-top: 1em }
+
+.calibre_250 { margin-top: 1em; text-indent: 0pt }
+
+.calibre_595 { margin-top: 0pt; text-indent: 0pt }
+
+.calibre_598 { vertical-align: baseline }
+
+.calibre_616 { text-indent: 0pt }
+
+.calibre_634 { margin-top: 8pt; text-indent: 0pt }
+
+.calibre_5339 { margin-top: 1em; text-indent: 0pt; text-align: center }
+
+.calibre_5342 { margin-top: 1em; text-indent: -19pt; margin-left: 19pt }
+
+.calibre_5346 { margin-top: 0pt }
+

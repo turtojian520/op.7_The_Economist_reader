@@ -632,6 +632,7 @@ p {
   margin: auto;
 }
 .article-body > p {
+  white-space: pre-line;
   font-family: var(--font-display);
   font-size: var(--reader-size);
   line-height: 1.8;

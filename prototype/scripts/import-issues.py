@@ -3,6 +3,8 @@ from pathlib import Path
 from zipfile import ZipFile
 import xml.etree.ElementTree as ET
 import argparse,hashlib,json,re,posixpath
+from datetime import date as calendar_date
+from sync_share_catalog import sync_share_catalog
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--sync-share',action='store_true',help='Also update the share catalog without workstation paths')
 args=parser.parse_args()
@@ -10,8 +12,12 @@ ROOT=Path(__file__).resolve().parents[1]
 ORIGIN=Path('/Users/qinhao/Documents/calibre_config')
 NS={'n':'http://www.daisy.org/z3986/2005/ncx/','h':'http://www.w3.org/1999/xhtml'}
 issues=[]; articles=[]
-for date in ['2026-11-07','2026-10-24','2026-10-03']:
-    source=ORIGIN/f'economist-{date}'/'periodical.epub'
+books=sorted((p for p in ORIGIN.glob('economist-????-??-??/periodical.epub')
+              if re.fullmatch(r'economist-\d{4}-\d{2}-\d{2}',p.parent.name)),reverse=True)
+if not books:raise SystemExit(f'No periodical EPUBs found in {ORIGIN}')
+for source in books:
+    date=source.parent.name.removeprefix('economist-')
+    calendar_date.fromisoformat(date)
     z=ZipFile(source); names=z.namelist(); ncx=ET.fromstring(z.read('toc.ncx'))
     out=ROOT/'public'/'media'/date;out.mkdir(parents=True,exist_ok=True)
     def media(src,base=''):
@@ -70,14 +76,18 @@ for date in ['2026-11-07','2026-10-24','2026-10-03']:
             articles.append({'id':aid,'issueId':date,'title':title,'section':section_title,'deck':deck,'image':image,'images':images,'imageOnly':not bool(paragraphs),'url':url,'published':published,'paragraphs':paragraphs,'blocks':blocks,'wordCount':words,'minutes':max(1,round(words/180)),'sourceFile':file})
             count+=1
     issue.update(articleCount=count,sections=sections);issues.append(issue)
-featured=next(a['id'] for a in articles if 'AI-controlled labs' in a['title'])
-data={'issues':issues,'articles':articles,'featuredId':featured,'importedAt':'2026-11-09','coverage':'仅包含本地导入的三期，不代表完整历史目录'}
+featured=next((a['id'] for a in articles if 'AI-controlled labs' in a['title']),articles[0]['id'])
+# Keep separately imported publications when rebuilding the Economist collection.
+catalog_path=ROOT/'server/data/catalog.json'
+if catalog_path.exists():
+    existing=json.loads(catalog_path.read_text())
+    extra_issues=[i for i in existing['issues'] if i['title']!='The Economist']
+    extra_ids={i['id'] for i in extra_issues}
+    issues.extend(extra_issues)
+    articles.extend(a for a in existing['articles'] if a['issueId'] in extra_ids)
+data={'issues':issues,'articles':articles,'featuredId':featured,'importedAt':calendar_date.today().isoformat(),'coverage':f'仅包含本地导入的 {len(issues)} 期，不代表完整历史目录'}
 (ROOT/'server/data/catalog.json').write_text(json.dumps(data,ensure_ascii=False),encoding='utf-8')
 if args.sync_share:
-    shared=json.loads(json.dumps(data))
-    for issue in shared['issues']:
-        issue.pop('source',None);issue.pop('sha256',None)
-    for article in shared['articles']:article.pop('sourceFile',None)
-    (ROOT.parent/'sites/margin-reader-share/public/content/catalog.json').write_text(json.dumps(shared,ensure_ascii=False),encoding='utf-8')
+    sync_share_catalog()
 (ROOT/'docs/import-report.json').write_text(json.dumps({'issues':issues,'articles':len(articles),'featuredId':featured},ensure_ascii=False,indent=2))
 print(json.dumps({'issues':[(i['id'],i['articleCount']) for i in issues],'articles':len(articles),'featuredId':featured},ensure_ascii=False))
