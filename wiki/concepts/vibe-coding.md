@@ -2,8 +2,8 @@
 title: Vibe Coding（个人软件的生产方式）
 type: concept
 status: growing
-updated: 2026-11-09
-sources: [2026-10-30-wechat-draco-ereader, 2026-11-07-douyin-typewords]
+updated: 2026-11-16
+sources: [2026-10-30-wechat-draco-ereader, 2026-11-07-douyin-typewords, 2026-11-16-notebooklm-build-in-public-workshop]
 tags: [AI编程, 独立开发, 工作流]
 ---
 
@@ -41,6 +41,9 @@ tags: [AI编程, 独立开发, 工作流]
 - **同质化**：当所有人都能用同一个模型生成 UI，差异化只能来自场景理解与数据。
 
 ## 相关
+
+- 新实践：[旁读公开构建 Workshop](../synthesis/build-in-public-workshop-2026-12-01.md) 将需求说明、AI 改动和人工验收公开展示，属于活动提案，尚未开展；依据[导师谈话](../sources/dawu-build-in-public-workshop.md) E1–E3。
+- 概念：[公开构建](build-in-public.md)
 
 - 实体：[Draco](../entities/draco.md) · [Infinite Reader](../entities/infinite-reader.md)
 - 来源：[公众号｜做自己的电子书阅读器](../sources/draco-ereader-wechat.md)

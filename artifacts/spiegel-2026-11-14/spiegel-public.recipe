@@ -1,0 +1,16 @@
+from calibre.web.feeds.news import BasicNewsRecipe
+class SpiegelPublic(BasicNewsRecipe):
+    title = 'DER SPIEGEL — 德语公开新闻 2026-11-14'
+    language = 'de'
+    __author__ = 'Local verification'
+    no_stylesheets = True
+    auto_cleanup = False
+    remove_javascript = True
+    simultaneous_downloads = 4
+    timeout = 30
+    cover_url = None
+    masthead_url = None
+    keep_only_tags = [dict(attrs={'data-area':'body'})]
+    remove_tags = [dict(name=['script','style','aside','figure']), dict(attrs={'data-advertisement':True}), dict(attrs={'data-area':lambda v:v and v != 'text' and v != 'body'})]
+    def parse_index(self):
+        return [('公开新闻', [{'title': 'Uno-Klimakonferenz in Antalya: »Alle sind betroffen von der Klimakrise – das spürt man hier«', 'url': 'https://www.spiegel.de/ausland/uno-klimakonferenz-in-antalya-alle-sind-betroffen-von-der-klimakrise-das-spuert-man-hier-a-6e4bd34a-43f9-48f4-a1d5-6816dc1da61d', 'description': ''}, {'title': 'News: Trauerakt für Hubert Aiwanger, Friedrich Merz und Stromsteuer, Rot-Grün-Rot in Berlin', 'url': 'https://www.spiegel.de/politik/deutschland/news-trauerakt-fuer-hubert-aiwanger-friedrich-merz-und-stromsteuer-rot-gruen-rot-in-berlin-a-3dda3c1b-9aab-48c2-b6aa-4a244a239e84', 'description': ''}, {'title': 'Halbe Million Euro Spenden für Pariser Terror-Zeugin', 'url': 'https://www.spiegel.de/panorama/halbe-million-euro-spenden-fuer-pariser-terror-zeugin-a-1bd59b07-d4da-4a10-b76c-a7036242f1bf', 'description': ''}, {'title': 'Ökonomen warnen vor schwerer Haushaltskrise ab 2028', 'url': 'https://www.spiegel.de/politik/oekonomen-warnen-vor-schwerer-haushaltskrise-ab-2028-a-f839e6f9-fa33-40db-8cf1-395e6db1568a', 'description': ''}, {'title': 'Präsident Miguel Díaz-Canel: Kubas Führung bereitet sich auf Angriff der USA vor', 'url': 'https://www.spiegel.de/ausland/praesident-miguel-diaz-canel-kubas-fuehrung-bereitet-sich-auf-angriff-der-usa-vor-a-2cb35593-82c2-4d9c-b358-cbc40bff928e', 'description': ''}, {'title': 'Starts an US-Flughäfen wieder erlaubt', 'url': 'https://www.spiegel.de/panorama/starts-an-us-flughaefen-wieder-erlaubt-a-13c2241a-9b4b-450e-acad-ccf1eaf7720f', 'description': ''}, {'title': 'Selenskyj beklagt erneute Drosselung bei Internet aus dem All', 'url': 'https://www.spiegel.de/ausland/selenskyj-beklagt-erneute-drosselung-bei-internet-aus-dem-all-a-32328b45-11bd-44b1-986e-61a04db87662', 'description': ''}, {'title': 'Donald Trump trifft Wladimir Putin und Xi Jinping kommende Woche in China', 'url': 'https://www.spiegel.de/ausland/donald-trump-trifft-wladimir-putin-und-xi-jinping-kommende-woche-in-china-a-8c11f808-645a-48b5-b7a1-fb85768c7994', 'description': ''}, {'title': 'Papst Leo XIV.: Eine halbe Million Menschen feiert den Papstbesuch an seiner alten Wirkungsstätte in Peru', 'url': 'https://www.spiegel.de/ausland/papst-leo-xiv-eine-halbe-million-menschen-feiert-den-papstbesuch-an-seiner-alten-wirkungsstaette-in-peru-a-f9842331-d086-4295-a426-897b90139110', 'description': ''}])]

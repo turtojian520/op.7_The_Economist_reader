@@ -53,6 +53,6 @@ GitHub 公开仓库：[turtojian520/op.7_The_Economist_reader](https://github.co
 
 ## MVP 交互原型
 
-[旁读 Margin](prototype/README.md) 已接入本地最近三期《经济学人》，可运行阅读、选词释义、拼写与笔记签核流程。使用项目独立的 Apache + PHP-FPM + MariaDB；演示范围与启动方式见原型说明。
+[旁读 Margin](prototype/README.md) 已接入五期《经济学人》、三期《大西洋月刊》和一份《明镜》德语公开新闻合集，可运行阅读、选词释义、拼写与笔记签核流程。本地版使用项目独立的 Apache、PHP-FPM 和 MariaDB。启动方式见原型说明。
 
 ChatGPT Sites：[旁读 Margin](https://margin-economist-reader.hybrid-klvvc-7155.chatgpt.site)。分享版已接入 DeepSeek 查词与翻译，持有链接即可使用站主 API，无需登录 ChatGPT；学习记录存于各自浏览器，详见 [分享版说明](sites/margin-reader-share/README.md)。

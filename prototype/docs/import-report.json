@@ -1,6 +1,67 @@
 {
   "issues": [
     {
+      "id": "2026-11-21",
+      "date": "2026-11-21",
+      "title": "The Economist",
+      "cover": "/media/2026-11-21/calibre_cover.jpg",
+      "source": "/Users/qinhao/Documents/calibre_config/economist-2026-11-21/periodical.epub",
+      "sha256": "7173a3c516055d47292797fe0f19a41a18fe10bd321d15cffb87e7661b14a735",
+      "articleCount": 80,
+      "sections": [
+        "The world this week",
+        "The World Ahead",
+        "Leaders",
+        "Letters",
+        "By Invitation",
+        "Briefing",
+        "Asia",
+        "China",
+        "United States",
+        "The Americas",
+        "Middle East & Africa",
+        "Europe",
+        "Britain",
+        "International",
+        "Business",
+        "Finance & economics",
+        "Science & technology",
+        "Culture",
+        "Economic & financial indicators",
+        "Obituary"
+      ]
+    },
+    {
+      "id": "2026-11-14",
+      "date": "2026-11-14",
+      "title": "The Economist",
+      "cover": "/media/2026-11-14/calibre_cover.jpg",
+      "source": "/Users/qinhao/Documents/calibre_config/economist-2026-11-14/periodical.epub",
+      "sha256": "6a3236590c8550deb8b2b549b0441446b5d6dfa75e831e28c1b16e360b2ad00e",
+      "articleCount": 76,
+      "sections": [
+        "The world this week",
+        "Leaders",
+        "Letters",
+        "By Invitation",
+        "Briefing",
+        "Asia",
+        "China",
+        "United States",
+        "The Americas",
+        "Middle East & Africa",
+        "Europe",
+        "Britain",
+        "International",
+        "Business",
+        "Finance & economics",
+        "Science & technology",
+        "Culture",
+        "Economic & financial indicators",
+        "Obituary"
+      ]
+    },
+    {
       "id": "2026-11-07",
       "date": "2026-11-07",
       "title": "The Economist",
@@ -90,8 +151,69 @@
         "Economic & financial indicators",
         "Obituary"
       ]
+    },
+    {
+      "id": "2026-11-14-spiegel",
+      "date": "2026-11-14",
+      "title": "DER SPIEGEL · 德语新闻",
+      "language": "de",
+      "cover": "/media/2026-11-14-spiegel/cover.jpg",
+      "source": "/Users/qinhao/Documents/python/VS_code_python/projects/op.7_The_Economist_reader/artifacts/spiegel-2026-11-14/spiegel-public-de.epub",
+      "sha256": "7b696d380d513e24378c5dd7df49ce260d97d61c6f954b684fbf568b1984daa0",
+      "articleCount": 9,
+      "sections": [
+        "DER SPIEGEL · 德语公开新闻"
+      ]
+    },
+    {
+      "id": "2026-09-atlantic",
+      "date": "2026-09",
+      "title": "The Atlantic",
+      "cover": "/media/2026-09-atlantic/cover.jpg",
+      "source": "/Users/qinhao/Documents/calibre_config/import-2026-11-23/atlantic-sources/2026.09.02/Atlantic_2026.09.02.epub",
+      "sha256": "b977ec491a3a630ff18d8c325eb4d06ea1b42fabdde513a9fa888026d0250707",
+      "articleCount": 15,
+      "sections": [
+        "Features",
+        "Dispatches",
+        "Culture & Critics",
+        "Departments",
+        "Poetry"
+      ]
+    },
+    {
+      "id": "2026-08-atlantic",
+      "date": "2026-08",
+      "title": "The Atlantic",
+      "cover": "/media/2026-08-atlantic/cover.jpg",
+      "source": "/Users/qinhao/Documents/calibre_config/import-2026-11-23/atlantic-sources/2026.08.02/Atlantic_2026.08.02.epub",
+      "sha256": "1ed32377f8824b22ebe88593db7ac4c70052470639e592231384ad271e9187c6",
+      "articleCount": 13,
+      "sections": [
+        "Features",
+        "Dispatches",
+        "Culture & Critics",
+        "Departments",
+        "Poetry"
+      ]
+    },
+    {
+      "id": "2026-06-atlantic",
+      "date": "2026-06",
+      "title": "The Atlantic",
+      "cover": "/media/2026-06-atlantic/cover.jpg",
+      "source": "/Users/qinhao/Documents/calibre_config/import-2026-11-23/atlantic-sources/2026.06.02/Atlantic_2026.06.02.epub",
+      "sha256": "8ff0a89360b5421784847d44e15b332aa6e64d56c75ddda0f9953ea2648c5914",
+      "articleCount": 13,
+      "sections": [
+        "Features",
+        "Dispatches",
+        "Culture & Critics",
+        "Departments",
+        "Poetry"
+      ]
     }
   ],
-  "articles": 225,
+  "articles": 431,
   "featuredId": "2026-11-07-017"
 }

@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-16-notebooklm-build-in-public-workshop",
+  "title": "11月16日导师谈话中的 Build in Public Workshop（活动相关摘录）",
+  "platform": "NotebookLM",
+  "url": "https://notebooklm.google.com/notebook/6febaf9d-8dd1-4ba2-a3d5-85e3aef77a26",
+  "source_id": "4e4ad4ae-90dd-4a79-88c4-ab8eb64b2723",
+  "source_title": "Nov 16 at 2-32 PM.m4a",
+  "source_date": "2026-11-16",
+  "retrieved_date": "2026-11-16",
+  "method": "NotebookLM MCP source_list and source_read(detail=full,max_chars=50000), non-truncated extracted transcript",
+  "scope": "Only workshop-related exact excerpts E1–E5. Unrelated personal discussion not retained. Audio and media not downloaded.",
+  "transformation": "Selection only: exact source_read substrings including original spacing and transcript errors. Offsets are zero-based UTF-16 code units with exclusive ends. No speaker labels or timestamps inferred in raw excerpts.",
+  "files": [
+    {
+      "local": "raw/excerpts.json",
+      "sha256": "c0682aa10493f147473b222a3c87bfbc1475a0a0c0d356fe9577da04825d3752",
+      "bytes": 19264
+    }
+  ]
+}

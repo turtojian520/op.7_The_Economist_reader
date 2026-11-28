@@ -1,13 +1,14 @@
 {
   "project_id": "appgprj_6af1d1e7215c8191ab7d95908547a260",
-  "version_id": "appgprj_6af1d1e7215c8191ab7d95908547a260~appgver_cc7b164277dc81918cacc163579acf30",
-  "deployment_id": "appgdep_6af33dbe89e0819181089998dc690d2a",
-  "commit_sha": "1da03390d08d952cbdd1cf79364a9a5d1168fad9",
+  "version_id": "appgprj_6af1d1e7215c8191ab7d95908547a260~appgver_839d1fd68ad08191bfd6891d83c52c1a",
+  "deployment_id": "appgdep_6b0678ec4fc08191b8b17688579d4f15",
+  "commit_sha": "cf1b9962d72b07309ea6eb84378d1a2c5aa53b4d",
   "url": "https://margin-economist-reader.hybrid-klvvc-7155.chatgpt.site",
   "status": "succeeded",
   "access": "public (existing setting preserved)",
   "data_storage": "per-browser localStorage",
-  "verification": "12 tests passed; anonymous production word lookup; credentials-omitted translation returned 200 from DeepSeek; no login links; build and secret scan passed",
+  "verification": "21 tests passed; both builds passed; 431 entries and 720 media files matched across readers; 381 Economist entries and 598 image references verified against the original EPUBs; the production catalog and all 9 covers matched the local share assets",
   "ai_access": "public visitors; no ChatGPT login; owner-funded DeepSeek API",
-  "runtime": "Cloudflare Worker + static assets"
+  "runtime": "Cloudflare Worker + static assets",
+  "version_number": 9
 }
